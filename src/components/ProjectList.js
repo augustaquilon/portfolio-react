@@ -90,8 +90,8 @@ export const projectList = [
     title: "Weather App",
     img: "",
     alt:"",
-    description: "Weather forecast for the next 5 days.",
-    tech: ["HTML", "CSS", "JavaScript", "API"],
+    description: "Weather forecast for the next 5 days. Changes colors, icons and descriptions based on current weather. Data fetched from a public API. Built with Vanilla JS.",
+    tech: ["HTML", "CSS", "JavaScript", "API", "Pair-Programming"],
     demo: "https://hippos-weather.netlify.app/",
     code: "https://github.com/EmmaEngvall/project-weather-app"
         },
