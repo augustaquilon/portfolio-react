@@ -27,7 +27,7 @@ export const projectList = [
         title: "To-do App",
         img: "",
         alt:"",
-        description: "",
+        description: "A To-Do list for busy people.",
         tech: ["JavaScript", "Redux", "React", "Styled Components"],
         demo: "",
         code: {
