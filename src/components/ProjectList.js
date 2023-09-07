@@ -39,25 +39,19 @@ export const projectList = [
         title: "Quiz App",
         img: "",
         alt:"",
-        description: "",
-        tech: ["Styled Components", "JavaScript", "Redux", "React"],
-        demo: "",
-        code: {
-            frontend: "",
-            backend: ""
-        }
+        description: "Group project, trying out Redux for the first time while making a quiz.",
+        tech: ["Styled Components", "JavaScript", "Redux", "React", "Mob-Programming"],
+        demo: "https://the-last-quiz.netlify.app/",
+        code: "https://github.com/JosefinRobertsson/project-redux-quiz"
     },
     {
-        title: "Design hand-off",
+        title: "Design Hand-off",
         img: "",
         alt:"",
-        description: "",
+        description: "Transforming a UX-design student's design into code. (No functionality - visual design only)",
         tech: ["HTML", "CSS"],
-        demo: "",
-        code: {
-            frontend: "",
-            backend: ""
-        }
+        demo: "https://ninos-design-handoff.netlify.app/",
+        code: ""
     },
     {
         title: "Movie Release App",
@@ -66,7 +60,7 @@ export const projectList = [
         description: "",
         tech: ["HTML", "CSS", "JavaScript", "API", "React", "Pair-Programming"],
         demo: "https://heartfelt-torrone-e608c2.netlify.app/",
-        code: "https://github.com/TessAquilon/project-movies"
+        code: ""
     },
     {
     title: "Labyrinth Game",
@@ -75,7 +69,7 @@ export const projectList = [
     description: "Careful, or you might get lost!",
     tech: ["React", "Redux"],
     demo: "https://zippy-vacherin-041127.netlify.app/",
-    code: "https://github.com/TessAquilon/project-labyrinth"
+    code: ""
     },
     {
     title: "Music Survey",
@@ -83,7 +77,7 @@ export const projectList = [
     alt:"",
     description: "",
     tech: ["HTML", "JavaScript", "React", "CSS"],
-    demo: "",
+    demo: "https://music-survey-react.netlify.app/",
     code: ""
         },
     {
@@ -110,22 +104,16 @@ export const projectList = [
             alt:"",
             description: "",
             tech: ["HTML", "CSS", "JavaScript"],
-            demo: "",
-            code: {
-                frontend: "",
-                backend: ""
-            }
-        },
+            demo: "https://ninos-guess-who.netlify.app/",
+            code: ""
+            },
         {
             title: "C(h)atbot",
             img: "",
             alt:"",
             description: "",
             tech: ["HTML", "CSS", "JavaScript"],
-            demo: "",
-            code: {
-                frontend: "",
-                backend: ""
-            }
+            demo: "https://bob-the-catbot.netlify.app/",
+            code: ""
         }
 ]
