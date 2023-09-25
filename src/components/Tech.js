@@ -1,15 +1,56 @@
+/* eslint-disable max-len */
 import React from 'react';
+import styled from 'styled-components/macro';
+
+// components
+
+import { Heading4 } from './Typography';
+
+const TechWrapper = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 530px;
+  padding: 20px 20px;
+  @media screen and (min-width: 1024px) {
+    padding: 12em 12em;
+  }
+`
+
+const TechStack = styled.div`
+@media screen and (min-width: 668px) {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+    }
+      `
+
+const Highlight = styled.span`
+  background: #F2CB05;
+  color: black;
+`
+
+const OtherHighlight = styled(Highlight)`
+  background: #F20505;
+  color: white;
+`
+
+const AnotherHighlight = styled(Highlight)`
+background: #2f3699;
+color: white;
+`
 
 const Tech = () => {
   return (
-    <section className="tech-container">
-      <section className="tech-content">
-        <h4 id="tech">Tech</h4>
-        <p id="tech-list">
-            HTML, CSS, Flexbox, <span id="tech1">JavaScript,</span> ES6, JSX, <span id="tech2">React,</span> React Hooks, Redux, Node.js, Mongo DB, Web Accessibility, API:s, <span id="tech3">mob-programming,</span> pair-programming, Github.
+    <TechWrapper>
+      <Heading4>Tech</Heading4>
+      <TechStack>
+        <p>
+            HTML, CSS, Flexbox, <Highlight>JavaScript,</Highlight> ES6, JSX, <OtherHighlight>React,</OtherHighlight> React Hooks, Redux, Node.js, Mongo DB, Web Accessibility, API:s, <AnotherHighlight>mob-programming,</AnotherHighlight> pair-programming, Github.
         </p>
-      </section>
-    </section>
+      </TechStack>
+    </TechWrapper>
   )
 }
 

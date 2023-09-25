@@ -19,7 +19,20 @@ font-size: 1.5rem;
   color: black;
   margin-top: 3px;
   margin-bottom: 1.5em;
+  @media screen and (min-width: 668px) {
+    margin-bottom: 0%;
+  }
   `
+
+export const Heading4 = styled.h4`
+  font-size: 48px;
+  font-weight: 700;
+  color: #2f3699;
+  margin: 1em 10px 1em 10px;
+  @media screen and (min-width: 668px) {
+    font-size: 5.5rem;
+  }
+`
 
 export const Paragraph = styled.p`
 font-family: 'EB Garamond', serif;

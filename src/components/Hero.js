@@ -10,18 +10,22 @@ import Background from 'assets/images/cool-background (blue).png';
 import { Heading1, Heading2, Heading3, Paragraph } from './Typography';
 
 const HeroText = styled.div`
-margin-bottom: 1.5em;
-width: 100%;
+      @media screen and (min-width: 668px) {
+        margin-bottom: 1.5em;
+      }
+      @media screen and (min-width: 1024px) {
+        width: 100%;
       max-width: 500px;
       height: auto;
       margin-left: 2em;
+      }
 `
 
 const HeroHeadings = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 1.5em;
+      margin-left: 1.5em; 
       @media screen and (min-width: 1024px) {
         display: flex;
         flex-direction: column;
@@ -33,10 +37,15 @@ const HeroHeadings = styled.div`
       `
 
 const HeadingsAndPicture = styled.div`
-display: flex;
+      display: flex;
       justify-content: center;
       margin-top: 2em;
-      margin-bottom: 1.5em;`
+      margin-bottom: 1.5em;
+      @media screen and (min-width: 1024px) {
+      justify-content: flex-start;
+      margin: 8em 4em 1em 3em;
+      }
+      `
 
 const PictureWrapper = styled.div`
 display: flex;
@@ -44,7 +53,13 @@ display: flex;
   margin: 3em auto 2em auto;
   @media screen and (min-width: 668px) {
     margin: 0%;
-  }
+  };
+`
+const Picture = styled.img`
+  height: auto;
+  width: 100%;
+  max-width: 164px;
+  border-radius: 50%;
 `
 
 const HeroWrapper = styled.header`
@@ -63,11 +78,8 @@ display: none;
       overflow: hidden;
 };
 @media screen and (min-width: 1024px) {
-  display: flex;
       width: 50%;
       height: 980px;
-      justify-content: center;
-      overflow: hidden;
 }
 `
 
@@ -88,7 +100,7 @@ display: flex;
 `
 
 const IconButton = styled.a`
-display: flex;
+  display: flex;
   align-items: center;
   color: #2f3699;
   border-radius: 50%;
@@ -102,8 +114,24 @@ display: flex;
 const LogoImage = styled.img`
 @media screen and (min-width: 668px) {
   align-self: center;
-      width: 500px;
-      height: 500px;
+};
+@media screen and (min-width: 1024px) {
+  margin-bottom: 15em;
+  object-fit: cover;
+}
+`
+
+const HeroInnerWrapper = styled.section`
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  justify-content: center;
+@media screen and (min-width: 1024px) {
+  width: 50%;
+  height: 980px;
+  padding: 0 2em 0 2em;
+  margin-bottom: 0;
 }
 `
 
@@ -113,10 +141,10 @@ const Hero = () => {
       <LogoWrapper>
         <LogoImage src={Background} alt="background" />
       </LogoWrapper>
-      <section>
+      <HeroInnerWrapper>
         <HeadingsAndPicture>
           <PictureWrapper>
-            <img src={Headshot} id="headshot" alt="headshot" />
+            <Picture src={Headshot} id="headshot" alt="headshot" />
           </PictureWrapper>
           <HeroHeadings>
             <Heading1>
@@ -145,7 +173,7 @@ const Hero = () => {
             </svg>
           </IconButton>
         </IconsWrapper>
-      </section>
+      </HeroInnerWrapper>
     </HeroWrapper>
   )
 }
