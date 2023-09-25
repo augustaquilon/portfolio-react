@@ -19,8 +19,15 @@ const Tags = styled.span`
   font-weight: 500;
   color:#F2CB05;
   background: black;
-  padding: 1px;
-  margin-left: 2px;
+  padding: 2px;
+`
+
+const TagsWrapper = styled.div`
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
 `
 
 const Projects = () => {
@@ -40,7 +47,7 @@ const Projects = () => {
                 <section className="project-content">
                   <Heading6>{title}</Heading6>
                   <Paragraph className="text">{description}</Paragraph>
-                  {tech.map((tag) => <Tags key={tag}>{tag}</Tags>)}
+                  <TagsWrapper>{tech.map((tag) => <Tags key={tag}>{tag}</Tags>)}</TagsWrapper>
                   <ButtonsWrapper>
                     {hasBackendCode ? (
                       <a href={code.backend || code} target="_blank" rel="noreferrer">
