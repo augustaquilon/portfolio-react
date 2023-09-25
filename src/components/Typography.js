@@ -34,6 +34,21 @@ export const Heading4 = styled.h4`
   }
 `
 
+export const Heading5 = styled.h5`
+  font-size: 46px;
+  font-weight: 700;
+  color: #2f3699;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+`
+
+export const Heading6 = styled.h6`
+  font-size: 2rem;
+  font-weight: 900;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+`
+
 export const Paragraph = styled.p`
 font-family: 'EB Garamond', serif;
   font-size: 1.375rem;

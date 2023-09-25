@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 
 // components
 
-import { Heading4 } from './Typography';
+import { Heading4, Paragraph } from './Typography';
 
 const TechWrapper = styled.section`
   display: flex;
@@ -46,9 +46,9 @@ const Tech = () => {
     <TechWrapper>
       <Heading4>Tech</Heading4>
       <TechStack>
-        <p>
+        <Paragraph>
             HTML, CSS, Flexbox, <Highlight>JavaScript,</Highlight> ES6, JSX, <OtherHighlight>React,</OtherHighlight> React Hooks, Redux, Node.js, Mongo DB, Web Accessibility, API:s, <AnotherHighlight>mob-programming,</AnotherHighlight> pair-programming, Github.
-        </p>
+        </Paragraph>
       </TechStack>
     </TechWrapper>
   )

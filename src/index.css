@@ -121,13 +121,13 @@ ul {
   margin-bottom: 0%;
 }
 
-h5 {
+/* h5 {
   font-size: 46px;
   font-weight: 700;
   color: #2f3699;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
-}
+} */
 
 h6 {
   font-size: 2rem;
@@ -136,14 +136,14 @@ h6 {
   margin-bottom: 0.5em;
 }
 
-.tags {
+/* .tags {
   font-family: 'Press Start 2P', cursive;
   font-size: 1rem;
   font-weight: 500;
   color:#F2CB05;
   background: black;
   padding: 1px;
-}
+} */
 
 /* #tech1 {
   background: #F2CB05;
@@ -194,10 +194,10 @@ li {
   height: auto;
 }
 
-.featured-buttons {
+/* .featured-buttons {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .btn1 {
   width: 200px;

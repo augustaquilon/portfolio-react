@@ -6,6 +6,7 @@ export const projectList = [
     description: '',
     tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
     demo: '',
+    hasBackendCode: true,
     code: {
       frontend: '',
       backend: ''
@@ -18,6 +19,7 @@ export const projectList = [
     description: 'Twitter, but nicer. Fullstack project.',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
     demo: '',
+    hasBackendCode: true,
     code: {
       frontend: '',
       backend: ''
@@ -30,6 +32,7 @@ export const projectList = [
     description: 'A To-Do list for busy people.',
     tech: ['JavaScript', 'Redux', 'React', 'Styled Components'],
     demo: '',
+    hasBackendCode: false,
     code: {
       frontend: '',
       backend: ''
@@ -42,6 +45,7 @@ export const projectList = [
     description: 'Group project, trying out Redux for the first time while making a quiz.',
     tech: ['Styled Components', 'JavaScript', 'Redux', 'React', 'Mob-Programming'],
     demo: 'https://the-last-quiz.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/JosefinRobertsson/project-redux-quiz'
   },
   {
@@ -51,6 +55,7 @@ export const projectList = [
     description: "Transforming a UX-design student's design into code. (No functionality - visual design only)",
     tech: ['HTML', 'CSS'],
     demo: 'https://ninos-design-handoff.netlify.app/',
+    hasBackendCode: false,
     code: ''
   },
   {
@@ -60,6 +65,7 @@ export const projectList = [
     description: '',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://heartfelt-torrone-e608c2.netlify.app/',
+    hasBackendCode: false,
     code: ''
   },
   {
@@ -69,6 +75,7 @@ export const projectList = [
     description: 'Careful, or you might get lost!',
     tech: ['React', 'Redux'],
     demo: 'https://zippy-vacherin-041127.netlify.app/',
+    hasBackendCode: false,
     code: ''
   },
   {
@@ -78,6 +85,7 @@ export const projectList = [
     description: '',
     tech: ['HTML', 'JavaScript', 'React', 'CSS'],
     demo: 'https://music-survey-react.netlify.app/',
+    hasBackendCode: false,
     code: ''
   },
   {
@@ -87,6 +95,7 @@ export const projectList = [
     description: 'Weather forecast for the next 5 days. Changes colors, icons and descriptions based on current weather. Data fetched from a public API. Built with Vanilla JS.',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'Pair-Programming'],
     demo: 'https://hippos-weather.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/EmmaEngvall/project-weather-app'
   },
   {
@@ -96,6 +105,7 @@ export const projectList = [
     description: 'The latest album and single releases on Spotify, gathered in one place.',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://t-and-t-music-release-app.netlify.app/',
+    hasBackendCode: false,
     code: 'https://github.com/theresBL/project-music-releases'
   },
   {
@@ -105,6 +115,7 @@ export const projectList = [
     description: '',
     tech: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://ninos-guess-who.netlify.app/',
+    hasBackendCode: false,
     code: ''
   },
   {
@@ -114,6 +125,7 @@ export const projectList = [
     description: '',
     tech: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://bob-the-catbot.netlify.app/',
+    hasBackendCode: false,
     code: ''
   }
 ]
