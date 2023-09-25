@@ -12,7 +12,7 @@ export const projectList = [
     }
   },
   {
-    title: 'Good Vibes App',
+    title: 'Happy Thoughts App',
     img: '',
     alt: '',
     description: 'Twitter, but nicer. Fullstack project.',
