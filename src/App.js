@@ -12,9 +12,11 @@ export const App = () => {
     <>
       <GlobalStyle />
       <Hero />
-      <Tech />
-      <Projects />
-      <Skills />
+      <main>
+        <Tech />
+        <Projects />
+        <Skills />
+      </main>
       <Footer />
     </>
 

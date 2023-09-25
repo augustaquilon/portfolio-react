@@ -50,8 +50,12 @@ export const Heading6 = styled.h6`
 `
 
 export const Paragraph = styled.p`
-font-family: 'EB Garamond', serif;
+  font-family: 'EB Garamond', serif;
   font-size: 1.375rem;
   font-weight: 400;
   line-height: 29px;
+`
+export const ProjectParagraph = styled(Paragraph)`
+  margin-top: 10px;
+  margin-bottom: 10px;
 `
