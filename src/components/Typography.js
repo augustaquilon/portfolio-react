@@ -71,12 +71,37 @@ font-size: 80px;
 export const Paragraph = styled.p`
   font-family: 'EB Garamond', serif;
   font-size: 22px;
-  font-family: EB Garamond;
   font-weight: 400;
   word-wrap: break-word;
-  font-weight: 400;
   line-height: 29px;
 `
+export const PinkHighlight = styled.p`
+color: #fff;
+background-color: var(--pink);
+font-size: 24px;
+font-family: Satoshi;
+font-weight: 700;
+word-wrap: break-word;
+  margin: 1em 0 1em 0;
+`
+
+export const BlueHighlight = styled(PinkHighlight)`
+background-color: var(--blue-medium);`
+
+export const DarkBlueHighlight = styled(BlueHighlight)`
+background-color: var(--blue-royal);`
+
+export const GreenHighlight = styled(DarkBlueHighlight)`
+background-color: var(--green);`
+
+export const ListItem = styled.li`
+font-size: 22px;
+font-family: EB Garamond;
+font-weight: 400;
+line-height: 32px;
+word-wrap: break-word
+`
+
 export const ProjectParagraph = styled(Paragraph)`
   margin-top: 10px;
   margin-bottom: 10px;

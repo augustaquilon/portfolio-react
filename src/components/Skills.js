@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 // components
-import { Heading5Bigger } from './Typography';
+import { Heading5Bigger, PinkHighlight, BlueHighlight, DarkBlueHighlight, GreenHighlight, ListItem } from './Typography';
 
 const SkillsWrapper = styled.section`
   display: flex;
@@ -39,6 +39,23 @@ display: flex;
   }
 `
 
+const List = styled.ul`
+text-align: center;
+@media screen and (min-width: 668px) {
+  text-align: left;
+}
+`
+
+// arrays
+
+const CodeSkills = ['HTML5', 'CSS3', 'Javascript ES6', 'React.js', 'Styled components', 'Github', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose'];
+
+const ToolboxSkills = ['Postman', 'Figma', 'MongoDB Atlas', 'MongoDB Compass', 'Slack'];
+
+const MoreSkills = ['Agile methodology', 'Web Accessibility', 'Time management', 'Growth mindset'];
+
+const UpcomingSkills = ['SCSS', 'Typescript', 'Midjourney', 'React Native'];
+
 const Skills = () => {
   return (
     <SkillsWrapper>
@@ -47,46 +64,30 @@ const Skills = () => {
       </Heading5Bigger>
       <ListOuterWrapper>
         <ListWrapper>
-          <p className="skill" id="code">Code </p>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Javascript ES6</li>
-            <li>React</li>
-            <li>Styled Components</li>
-            <li>GitHub</li>
-            <li>Redux</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-          </ul>
+          <PinkHighlight>Code </PinkHighlight>
+          <List>
+            {CodeSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
+          </List>
         </ListWrapper>
         <ListWrapper>
-          <p className="skill" id="toolbox">Toolbox </p>
-          <ul>
-            <li>Postman</li>
-            <li>Figma</li>
-            <li>Slack</li>
-          </ul>
+          <BlueHighlight>Toolbox </BlueHighlight>
+          <List>
+            {ToolboxSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
+          </List>
         </ListWrapper>
       </ListOuterWrapper>
       <ListOuterWrapper>
         <ListWrapper>
-          <p className="skill" id="more">More </p>
-          <ul>
-            <li>Agile methodology</li>
-            <li>Leadership</li>
-            <li>Time management</li>
-            <li>Growth mindset</li>
-          </ul>
+          <DarkBlueHighlight>More </DarkBlueHighlight>
+          <List>
+            {MoreSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
+          </List>
         </ListWrapper>
         <ListWrapper>
-          <p className="skill" id="upcoming">Upcoming </p>
-          <ul>
-            <li>React Native</li>
-            <li>Typescript</li>
-            <li>Sass</li>
-            <li>Tailwind</li>
-          </ul>
+          <GreenHighlight>Upcoming </GreenHighlight>
+          <List>
+            {UpcomingSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
+          </List>
         </ListWrapper>
       </ListOuterWrapper>
     </SkillsWrapper>
