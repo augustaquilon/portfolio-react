@@ -21,11 +21,10 @@ const HeroText = styled.div`
       }
 `
 
-const HeroHeadings = styled.div`
+export const HeroHeadings = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-left: 1.5em; 
       @media screen and (min-width: 1024px) {
         display: flex;
         flex-direction: column;
@@ -36,8 +35,9 @@ const HeroHeadings = styled.div`
       }
       `
 
-const HeadingsAndPicture = styled.div`
+export const HeadingsAndPicture = styled.div`
       display: flex;
+      flex-direction: column;
       justify-content: center;
       margin-top: 2em;
       margin-bottom: 1.5em;
@@ -47,7 +47,7 @@ const HeadingsAndPicture = styled.div`
       }
       `
 
-const PictureWrapper = styled.div`
+export const PictureWrapper = styled.div`
 display: flex;
   justify-content: center;
   margin: 3em auto 2em auto;
@@ -55,7 +55,7 @@ display: flex;
     margin: 0%;
   };
 `
-const Picture = styled.img`
+export const Picture = styled.img`
   height: auto;
   width: 100%;
   max-width: 164px;
@@ -83,7 +83,7 @@ display: none;
 }
 `
 
-const IconsWrapper = styled.section`
+export const IconsWrapper = styled.section`
 display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -99,7 +99,7 @@ display: flex;
   }
 `
 
-const IconButton = styled.a`
+export const IconButton = styled.a`
   display: flex;
   align-items: center;
   color: var(--grey-dark);
@@ -128,7 +128,6 @@ const LogoImage = styled.img`
 `
 
 const HeroInnerWrapper = styled.section`
-  padding: 20px 20px;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
@@ -157,10 +156,10 @@ const Hero = () => {
                   Nino Aquilon
             </Heading1>
             <Heading2>
-                  Frontend Developer
+                  Front-end Developer
             </Heading2>
             <Heading3>
-                  + Much more
+                  + much, much more
             </Heading3>
           </HeroHeadings>
         </HeadingsAndPicture>

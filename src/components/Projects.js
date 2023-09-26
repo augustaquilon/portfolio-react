@@ -42,7 +42,6 @@ const ProjectsWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 20px;
   @media screen and (min-width: 1024px) {
       padding: 6em 12em;
   }
@@ -59,7 +58,6 @@ const ProjectWrapper = styled.div`
 const ProjectInnerWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1em;
   margin-bottom: 5em;
 `
 

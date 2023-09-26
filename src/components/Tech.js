@@ -11,14 +11,17 @@ const TechWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   background-color: var(--blue-light);
+  margin-left: -24px;
+  margin-right: -24px;
   height: 530px;
-  padding: 20px 20px;
   @media screen and (min-width: 1024px) {
     padding: 12em 12em;
   }
 `
 
 const TechStack = styled.div`
+margin-left: 24px;
+margin-right: 24px;
 @media screen and (min-width: 668px) {
       width: 100%;
       max-width: 500px;

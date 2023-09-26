@@ -68,6 +68,12 @@ export const Heading5Bigger = styled(Heading5)`
 font-size: 80px;
 `
 
+export const Heading6Bigger = styled(Heading6)`
+color: var(--pink);
+font-size: 58px;
+align-self: center;
+`
+
 export const Paragraph = styled.p`
   font-family: 'EB Garamond', serif;
   font-size: 22px;
@@ -106,3 +112,10 @@ export const ProjectParagraph = styled(Paragraph)`
   margin-top: 10px;
   margin-bottom: 10px;
 `
+
+export const ContactDetails = styled.p`
+color: #000;
+font-size: 24px;
+font-family: Satoshi;
+font-weight: 900;
+word-wrap: break-word`

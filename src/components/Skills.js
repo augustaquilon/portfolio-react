@@ -6,14 +6,17 @@ import { Heading5Bigger, PinkHighlight, BlueHighlight, DarkBlueHighlight, GreenH
 
 const SkillsWrapper = styled.section`
   display: flex;
+  margin-left: -24px;
+  margin-right: -24px;
   flex-direction: column;
   align-items: center;
   background: white;
-  padding: 20px 20px;
-  background-color: var(--beige);
+  background-color: var(--pink-light);
 `
 
 const ListOuterWrapper = styled.div`
+margin-left: 24px;
+  margin-right: 24px;
 @media screen and (min-width: 668px) {
   display: flex;
   margin-top: 2em;
