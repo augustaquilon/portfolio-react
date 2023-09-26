@@ -1,22 +1,29 @@
 import styled from 'styled-components/macro';
 
 export const Heading1 = styled.h1`
-font-size: 1.75rem;
+  font-size: 28px;
+  font-family: Satoshi;
   font-weight: 700;
-  color: inherit;
+  word-wrap: break-word;
+  font-weight: 700;
+  color: var(--blue-royal);
   `
 
 export const Heading2 = styled.h2`
-font-size: 2rem;
+  font-size: 32px;
+  font-family: Satoshi;
   font-weight: 900;
+  word-wrap: break-word;
   margin-top: 7px;
-  color: var(--magenta);
+  color: #000;
 `
 
 export const Heading3 = styled.h3`
-font-size: 1.5rem;
-  font-weight: 400;
-  color: black;
+  font-size: 24px;
+  font-family: Satoshi;
+  font-weight: 500;
+  word-wrap: break-word;
+  color: var(--pink);
   margin-top: 3px;
   margin-bottom: 1.5em;
   @media screen and (min-width: 668px) {
@@ -25,9 +32,11 @@ font-size: 1.5rem;
   `
 
 export const Heading4 = styled.h4`
-  font-size: 48px;
+  font-size: 80px;
+  font-family: Satoshi;
   font-weight: 700;
-  color: #2f3699;
+  word-wrap: break-word;
+  color: var(--blue-royal);
   margin: 1em 10px 1em 10px;
   @media screen and (min-width: 668px) {
     font-size: 5.5rem;
@@ -35,23 +44,33 @@ export const Heading4 = styled.h4`
 `
 
 export const Heading5 = styled.h5`
-  font-size: 46px;
+  font-size: 72px;
+  font-family: Satoshi;
   font-weight: 700;
-  color: #2f3699;
+  line-height: 80px;
+  word-wrap: break-word;
+  font-weight: 700;
+  color: var(--blue-royal);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 `
 
 export const Heading6 = styled.h6`
-  font-size: 2rem;
-  font-weight: 900;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
+  color: #000;
+  font-size: 32px;
+  font-family: Satoshi;
+  font-weight: 900;
+  word-wrap: break-word;
 `
 
 export const Paragraph = styled.p`
   font-family: 'EB Garamond', serif;
-  font-size: 1.375rem;
+  font-size: 22px;
+  font-family: EB Garamond;
+  font-weight: 400;
+  word-wrap: break-word;
   font-weight: 400;
   line-height: 29px;
 `

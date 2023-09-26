@@ -10,7 +10,7 @@ const TechWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: white;
+  background-color: var(--blue-light);
   height: 530px;
   padding: 20px 20px;
   @media screen and (min-width: 1024px) {
@@ -27,17 +27,17 @@ const TechStack = styled.div`
       `
 
 const Highlight = styled.span`
-  background: #F2CB05;
+  background: var(--pink);
   color: black;
 `
 
 const OtherHighlight = styled(Highlight)`
-  background: #F20505;
+  background: var(--blue-royal);
   color: white;
 `
 
 const AnotherHighlight = styled(Highlight)`
-background: #2f3699;
+background: var(--blue-medium);
 color: white;
 `
 
