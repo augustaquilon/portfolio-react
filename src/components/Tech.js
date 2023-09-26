@@ -13,9 +13,13 @@ const TechWrapper = styled.section`
   background-color: var(--blue-light);
   margin-left: -24px;
   margin-right: -24px;
-  height: 530px;
+  padding: 80px 0 120px 0;
+  @media screen and (min-width: 668px) {
+    padding: 234px 0 287px 0;
+  }
   @media screen and (min-width: 1024px) {
-    padding: 12em 12em;
+    flex-direction: row;
+    justify-content: center;
   }
 `
 

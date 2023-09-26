@@ -10,10 +10,13 @@ import { HeadingsAndPicture, HeroHeadings, Picture, PictureWrapper, IconsWrapper
 
 const ContactWrapper = styled.footer`
   display: flex;
+  padding-top: 64px;
+  padding-bottom: 93px;
   flex-direction: column;
   background: white;
   @media screen and (min-width: 668px) {
     margin-bottom: 5em;
+    text-align: center;
   };
   @media screen and (min-width: 1024px) {
     margin-bottom: 5em;

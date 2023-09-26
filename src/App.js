@@ -14,7 +14,7 @@ const OuterWrapper = styled.div`
   margin: 0;
 `
 const InnerWrapper = styled.div`
-margin: 24px;
+margin: 0 24px 0 24px;
 `
 
 export const App = () => {

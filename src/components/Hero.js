@@ -9,15 +9,15 @@ import Background from 'assets/images/cool-background (blue).png';
 // components
 import { Heading1, Heading2, Heading3, Paragraph } from './Typography';
 
-const HeroText = styled.div`
+const HeroTextWrapper = styled.div`
       @media screen and (min-width: 668px) {
-        margin-bottom: 1.5em;
+        margin: 30px 102px 30px 102px;
       }
       @media screen and (min-width: 1024px) {
-        width: 100%;
+      width: 100%;
       max-width: 500px;
       height: auto;
-      margin-left: 2em;
+      margin: 50px 0;
       }
 `
 
@@ -29,9 +29,6 @@ export const HeroHeadings = styled.div`
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-left: 2em;
-        margin-top: 2em;
-        margin-right: 5em;
       }
       `
 
@@ -41,9 +38,13 @@ export const HeadingsAndPicture = styled.div`
       justify-content: center;
       margin-top: 2em;
       margin-bottom: 1.5em;
+      @media screen and (min-width: 668px) {
+        flex-direction: row;
+        gap: 29px;
+        margin-bottom: 0;
+      }
       @media screen and (min-width: 1024px) {
       justify-content: flex-start;
-      margin: 8em 4em 1em 3em;
       }
       `
 
@@ -63,13 +64,18 @@ export const Picture = styled.img`
 `
 
 const HeroWrapper = styled.header`
+padding-bottom: 100px;
 @media screen and (min-width: 1024px) {
-  display: flex;
-      flex-direction: row-reverse;
+      display: flex;
+      flex-direction: row;
+      margin-left: -24px;
+      margin-right: -24px;
 }
 `
 
 const LogoWrapper = styled.section`
+margin-left: -24px;
+margin-right: -24px;
 display: none;
 @media screen and (min-width: 668px) {
   display: flex;
@@ -80,15 +86,19 @@ display: none;
 @media screen and (min-width: 1024px) {
       width: 50%;
       height: 980px;
+      margin: 0;
 }
 `
 
 export const IconsWrapper = styled.section`
-display: flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;
   margin-top: 4.5em;
   margin-bottom: 1.5em;
+  @media screen and (min-width: 668px) {
+    margin: 30px 0 30px 0;
+  };
   @media screen and (min-width: 1024px) {
     display: flex;
       flex-direction: row;
@@ -122,8 +132,8 @@ const LogoImage = styled.img`
   align-self: center;
 };
 @media screen and (min-width: 1024px) {
-  margin-bottom: 15em;
   object-fit: cover;
+  align-self: stretch;
 }
 `
 
@@ -132,11 +142,14 @@ const HeroInnerWrapper = styled.section`
   flex-direction: column;
   margin-bottom: 10px;
   justify-content: center;
+  @media screen and (min-width: 668px) {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
 @media screen and (min-width: 1024px) {
   width: 50%;
-  height: 980px;
-  padding: 0 2em 0 2em;
-  margin-bottom: 0;
+  margin: 0;
+  align-items: center;
 }
 `
 
@@ -163,9 +176,9 @@ const Hero = () => {
             </Heading3>
           </HeroHeadings>
         </HeadingsAndPicture>
-        <HeroText>
-          <Paragraph> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</Paragraph>
-        </HeroText>
+        <HeroTextWrapper>
+          <Paragraph> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
+        </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">
             <svg

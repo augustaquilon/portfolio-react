@@ -11,14 +11,21 @@ const SkillsWrapper = styled.section`
   flex-direction: column;
   align-items: center;
   background: white;
+  padding-top: 64px;
+  padding-bottom: 147px;
   background-color: var(--pink-light);
+  @media screen and (min-width: 668px) {
+    padding-top: 121px;
+    padding-bottom: 155px;
+  }
 `
 
 const ListOuterWrapper = styled.div`
 margin-left: 24px;
   margin-right: 24px;
 @media screen and (min-width: 668px) {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   margin-top: 2em;
   margin-bottom: 3em;
 };
@@ -78,8 +85,6 @@ const Skills = () => {
             {ToolboxSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
           </List>
         </ListWrapper>
-      </ListOuterWrapper>
-      <ListOuterWrapper>
         <ListWrapper>
           <DarkBlueHighlight>More </DarkBlueHighlight>
           <List>

@@ -6,13 +6,17 @@ import { projectList } from './ProjectList';
 
 // components
 
-import { Heading5, Heading6, ProjectParagraph } from './Typography';
+import { Heading5, Heading6, ProjectDescription } from './Typography';
 
 const ButtonsWrapper = styled.section`
   margin-top: 4em;
   display: flex;
   flex-direction: column;
   gap: 20px;
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
   @media screen and (min-width: 668px) {
       flex-direction: row;
       align-items: center;
@@ -36,14 +40,23 @@ const TagsWrapper = styled.div`
   flex-wrap: wrap;
   gap: 10px;
   font-size: 12px;
+  width: 100%;
+    max-width: 500px;
+    height: auto;
 `
 
 const ProjectsWrapper = styled.section`
   display: flex;
+  padding-top: 64px;
+  padding-bottom: 93px;
   flex-direction: column;
   align-items: flex-start;
+  @media screen and (min-width: 668px) {
+    padding-top: 120px;
+  }
   @media screen and (min-width: 1024px) {
-      padding: 6em 12em;
+      margin: 120px 230px;
+      gap: 120px;
   }
 `
 
@@ -52,7 +65,6 @@ const ProjectWrapper = styled.div`
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 10px;
-
 `
 
 const ProjectInnerWrapper = styled.div`
@@ -82,7 +94,7 @@ const Button = styled.a`
   justify-content: center;
   background-color: var(--pink-light);
   color: var(--light-black);
-  border-radius: 8px;
+  border-radius: 21px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
   padding: 0.25em 0.75em;
   min-width: 10ch;
@@ -123,7 +135,7 @@ const Projects = () => {
             </div>
             <ProjectInnerWrapper>
               <Heading6>{title}</Heading6>
-              <ProjectParagraph className="text">{description}</ProjectParagraph>
+              <ProjectDescription>{description}</ProjectDescription>
               <TagsWrapper>{tech.map((tag) => <Tags key={tag}>{tag}</Tags>)}</TagsWrapper>
               <ButtonsWrapper>
                 {hasBackendCode ? (

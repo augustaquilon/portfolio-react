@@ -23,7 +23,7 @@ export const Heading3 = styled.h3`
   font-family: Satoshi;
   font-weight: 500;
   word-wrap: break-word;
-  color: var(--pink);
+  color: var(--grey-dark);
   margin-top: 3px;
   margin-bottom: 1.5em;
   @media screen and (min-width: 668px) {
@@ -37,7 +37,7 @@ export const Heading4 = styled.h4`
   font-weight: 700;
   word-wrap: break-word;
   color: var(--blue-royal);
-  margin: 1em 10px 1em 10px;
+  margin-bottom: 60px;
   @media screen and (min-width: 668px) {
     font-size: 5.5rem;
   }
@@ -50,13 +50,10 @@ export const Heading5 = styled.h5`
   line-height: 80px;
   word-wrap: break-word;
   color: var(--blue-royal);
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
+  margin-bottom: 40px;
 `
 
 export const Heading6 = styled.h6`
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
   color: #000;
   font-size: 32px;
   font-family: Satoshi;
@@ -72,6 +69,9 @@ export const Heading6Bigger = styled(Heading6)`
 color: var(--pink);
 font-size: 58px;
 align-self: center;
+@media screen and (min-width: 668px) {
+  font-size: 110px;
+};
 `
 
 export const Paragraph = styled.p`
@@ -89,6 +89,7 @@ font-family: Satoshi;
 font-weight: 700;
 word-wrap: break-word;
   margin: 1em 0 1em 0;
+  padding: 4px;
 `
 
 export const BlueHighlight = styled(PinkHighlight)`
@@ -108,9 +109,12 @@ line-height: 32px;
 word-wrap: break-word
 `
 
-export const ProjectParagraph = styled(Paragraph)`
+export const ProjectDescription = styled(Paragraph)`
   margin-top: 10px;
   margin-bottom: 10px;
+  width: 100%;
+    max-width: 500px;
+    height: auto;
 `
 
 export const ContactDetails = styled.p`
