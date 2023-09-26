@@ -49,7 +49,6 @@ export const Heading5 = styled.h5`
   font-weight: 700;
   line-height: 80px;
   word-wrap: break-word;
-  font-weight: 700;
   color: var(--blue-royal);
   margin-top: 0.5em;
   margin-bottom: 0.5em;
@@ -63,6 +62,10 @@ export const Heading6 = styled.h6`
   font-family: Satoshi;
   font-weight: 900;
   word-wrap: break-word;
+`
+
+export const Heading5Bigger = styled(Heading5)`
+font-size: 80px;
 `
 
 export const Paragraph = styled.p`
