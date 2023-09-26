@@ -9,9 +9,10 @@ import { projectList } from './ProjectList';
 import { Heading5, Heading6, ProjectParagraph } from './Typography';
 
 const ButtonsWrapper = styled.section`
+  margin-top: 4em;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
   @media screen and (min-width: 668px) {
       flex-direction: row;
       align-items: center;

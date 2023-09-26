@@ -1,17 +1,18 @@
+/* eslint-disable max-len */
 export const projectList = [
-  {
-    title: 'The Arcade',
-    img: '',
-    alt: 'picture of computer',
-    description: '',
-    tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
-    demo: '',
-    hasBackendCode: true,
-    code: {
-      frontend: '',
-      backend: ''
-    }
-  },
+  // {
+  //   title: 'The Arcade',
+  //   img: '',
+  //   alt: 'picture of computer',
+  //   description: '',
+  //   tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
+  //   demo: '',
+  //   hasBackendCode: true,
+  //   code: {
+  //     frontend: '',
+  //     backend: ''
+  //   }
+  // },
   {
     title: 'Happy Thoughts App',
     img: '',
