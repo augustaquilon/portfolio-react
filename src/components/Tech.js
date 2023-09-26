@@ -20,6 +20,8 @@ const TechWrapper = styled.section`
   @media screen and (min-width: 1024px) {
     flex-direction: row;
     justify-content: center;
+    padding-left: 230px;
+    padding-right: 230px;
   }
 `
 

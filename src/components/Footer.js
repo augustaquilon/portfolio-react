@@ -15,7 +15,8 @@ const ContactWrapper = styled.footer`
   flex-direction: column;
   background: white;
   @media screen and (min-width: 668px) {
-    margin-bottom: 5em;
+    padding-top: 196px;
+    padding-bottom: 168px;
     text-align: center;
   };
   @media screen and (min-width: 1024px) {
@@ -28,7 +29,8 @@ const ContactDetailsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2.5em;
+  padding-top: 120px;
+  padding-bottom: 125px;
 };
 `
 

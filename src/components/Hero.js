@@ -36,12 +36,9 @@ export const HeadingsAndPicture = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
-      margin-top: 2em;
-      margin-bottom: 1.5em;
       @media screen and (min-width: 668px) {
         flex-direction: row;
         gap: 29px;
-        margin-bottom: 0;
       }
       @media screen and (min-width: 1024px) {
       justify-content: flex-start;
@@ -64,7 +61,6 @@ export const Picture = styled.img`
 `
 
 const HeroWrapper = styled.header`
-padding-bottom: 100px;
 @media screen and (min-width: 1024px) {
       display: flex;
       flex-direction: row;
@@ -97,7 +93,8 @@ export const IconsWrapper = styled.section`
   margin-top: 4.5em;
   margin-bottom: 1.5em;
   @media screen and (min-width: 668px) {
-    margin: 30px 0 30px 0;
+    padding-top: 58px;
+    margin: 0;
   };
   @media screen and (min-width: 1024px) {
     display: flex;
@@ -140,16 +137,19 @@ const LogoImage = styled.img`
 const HeroInnerWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
   justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 55px;
   @media screen and (min-width: 668px) {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
+    padding-top: 80px;
+    padding-bottom: 80px;
+  };
 @media screen and (min-width: 1024px) {
   width: 50%;
   margin: 0;
   align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 `
 

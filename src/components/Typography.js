@@ -71,6 +71,7 @@ font-size: 58px;
 align-self: center;
 @media screen and (min-width: 668px) {
   font-size: 110px;
+  padding-bottom: 75px;
 };
 `
 
