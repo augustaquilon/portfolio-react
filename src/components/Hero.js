@@ -11,13 +11,14 @@ import { Heading1, Heading2, Heading3, Paragraph } from './Typography';
 
 const HeroTextWrapper = styled.div`
       @media screen and (min-width: 668px) {
-        margin: 30px 102px 30px 102px;
+        padding: 32px 102px 0 142px;
       }
       @media screen and (min-width: 1024px) {
       width: 100%;
       max-width: 500px;
       height: auto;
       margin: 50px 0;
+      padding: 0%;
       }
 `
 
@@ -89,19 +90,12 @@ display: none;
 export const IconsWrapper = styled.section`
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  margin-top: 4.5em;
-  margin-bottom: 1.5em;
-  @media screen and (min-width: 668px) {
-    padding-top: 58px;
-    margin: 0;
-  };
+  justify-content: space-evenly;
+  padding-top: 58px;
   @media screen and (min-width: 1024px) {
     display: flex;
       flex-direction: row;
       justify-content: space-around;
-      margin-top: 3em;
-      margin-bottom: 1.5em;
       width: 500px;
   }
 `
