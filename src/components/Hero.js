@@ -4,7 +4,7 @@ import styled from 'styled-components/macro';
 
 // images
 import Headshot from 'assets/images/Cute Avatar.png';
-import Background from 'assets/images/cool-background (blue).png';
+import Background from 'assets/images/aquilonino_a_cute_isometric_perspective_3D_mini_diorama_of_a_ho_b318c58c-fb84-476d-a8c3-d1a7fa1adf2b_upscayl_4x_realesrgan-x4plus-anime copy.png';
 
 // components
 import { Heading1, Heading2, Heading3, Paragraph } from './Typography';
@@ -119,9 +119,6 @@ export const IconButton = styled.a`
 `
 
 const LogoImage = styled.img`
-@media screen and (min-width: 668px) {
-  align-self: center;
-};
 @media screen and (min-width: 1024px) {
   object-fit: cover;
   align-self: stretch;

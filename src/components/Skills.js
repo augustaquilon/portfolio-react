@@ -13,7 +13,7 @@ const SkillsWrapper = styled.section`
   background: white;
   padding-top: 64px;
   padding-bottom: 147px;
-  background-color: #fff;
+  background-color: var(--pink-light);
   @media screen and (min-width: 668px) {
     padding-top: 121px;
     padding-bottom: 155px;

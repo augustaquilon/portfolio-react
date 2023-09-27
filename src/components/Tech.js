@@ -10,7 +10,7 @@ const TechWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #fff;
+  background-color: var(--blue-light);
   margin-left: -24px;
   margin-right: -24px;
   padding: 80px 0 120px 0;

@@ -17,7 +17,7 @@ export const projectList = [
     title: 'Happy Thoughts App',
     img: '',
     alt: 'picture of computer',
-    description: 'Like Twitter, but nicer. First fullstack project, built with the MERN-stack.',
+    description: 'Like Twitter, but nicer. First fullstack project, built with MERN-stack.',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
     demo: 'https://ninos-happy-thoughts.netlify.app/',
     hasBackendCode: true,
