@@ -109,7 +109,7 @@ export const IconButton = styled.a`
   &:hover {
     transform: scale(1.3);
     border: none;
-    color: var(--pink);
+    color: var(--blue-medium);
   };
   &:focus {
     outline-style: solid;

@@ -17,6 +17,7 @@ const TechWrapper = styled.section`
   padding: 80px 0 120px 0;
   @media screen and (min-width: 668px) {
     padding: 234px 0 287px 0;
+    gap: 142px;
   }
   @media screen and (min-width: 1024px) {
     flex-direction: row;
@@ -60,7 +61,7 @@ const Tech = () => {
         <Heading4>Tech</Heading4>
         <TechStack>
           <Paragraph>
-            HTML5, CSS3, Flexbox, CSS Grid, <Highlight>JavaScript ES6,</Highlight> Styled components, <SecondHighlight>React,</SecondHighlight> Redux, Node.js, Mongo DB, Express.js, API:s, <ThirdHighlight>mob-programming,</ThirdHighlight> pair-programming, Github.
+            HTML5, CSS3, Flexbox, CSS Grid, <Highlight>JavaScript ES6,</Highlight> Styled components, <SecondHighlight>React,</SecondHighlight> React Hooks, Redux, Node.js, Mongo DB, Express.js, API:s, <ThirdHighlight>mob-programming,</ThirdHighlight> pair-programming, Github.
           </Paragraph>
         </TechStack>
       </Fade>
