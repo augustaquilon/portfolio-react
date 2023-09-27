@@ -7,7 +7,7 @@ import Headshot from 'images/Cute Avatar.png';
 import Background from 'images/hero-img.png';
 
 // components
-import { Heading1, Heading2, Heading3, Paragraph } from './Typography';
+import { Heading1, Heading2, Paragraph } from './Typography';
 
 const HeroTextWrapper = styled.div`
       @media screen and (min-width: 668px) {
@@ -157,18 +157,19 @@ const Hero = () => {
           </PictureWrapper>
           <HeroHeadings>
             <Heading1>
-                  Nino Aquilon
+                  Meet
             </Heading1>
             <Heading2>
-                  Front-end Developer
+                  Nino Aquilon
             </Heading2>
-            <Heading3>
-                  + much, much more
-            </Heading3>
+            {/* <Heading3>
+                  front-end developer & more
+            </Heading3> */}
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Paragraph>
+          <Paragraph> A dynamic developer, artist, and musician who weaves creativity seamlessly into code using React, the MERN stack, Midjourney and more. With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
+          <Paragraph>With a background in the arts, Nino not only possesses technical expertise but also a deep understanding of user experience, aesthetics, and the power of collaboration.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">
