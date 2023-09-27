@@ -10,7 +10,7 @@ const TechWrapper = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--blue-light);
+  background-color: var(--pink-light);
   margin-left: -24px;
   margin-right: -24px;
   padding: 80px 0 120px 0;
@@ -46,7 +46,7 @@ const OtherHighlight = styled(Highlight)`
 `
 
 const AnotherHighlight = styled(Highlight)`
-background: var(--grey-dark);
+background: var(--blue-medium);
 color: white;
 `
 

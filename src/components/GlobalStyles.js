@@ -3,7 +3,7 @@ import { createGlobalStyle } from 'styled-components';
 const GlobalStyle = createGlobalStyle`
   :root {
     --blue-royal: #354024;
-    --grey-dark: #8C8080;
+    --grey-dark: #727C85;
     --grey-light: #D0D0D0;
     --blue-light: #EDFFFF;
     --pink: #D94B2B;
@@ -13,6 +13,7 @@ const GlobalStyle = createGlobalStyle`
     --green: #A1A61B;
     --light-black: ##333333;
     --beige: #FDF2E4;
+    --pink-dark: #591812;
   };
 
   body {
