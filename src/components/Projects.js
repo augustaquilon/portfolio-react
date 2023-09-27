@@ -116,7 +116,7 @@ const Button = styled.a`
 const OtherButton = styled(Button)`
 background-color: var(--blue-light);
 &:hover {
-  background-color: var(--blue-medium);
+  background-color: var(--blue-royal);
   color: #fff;
  };
 `

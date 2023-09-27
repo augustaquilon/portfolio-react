@@ -36,16 +36,17 @@ margin-right: 24px;
       `
 
 const Highlight = styled.span`
-  background: var(--pink);
-  color: black;
+  background: var(--blue-royal);
+  color: white;
+  padding: 1px;
 `
 
-const OtherHighlight = styled(Highlight)`
-  background: var(--blue-royal);
+const SecondHighlight = styled(Highlight)`
+  background: var(--pink);
   color: white;
 `
 
-const AnotherHighlight = styled(Highlight)`
+const ThirdHighlight = styled(Highlight)`
 background: var(--blue-medium);
 color: white;
 `
@@ -56,7 +57,7 @@ const Tech = () => {
       <Heading4>Tech</Heading4>
       <TechStack>
         <Paragraph>
-            HTML, CSS, Flexbox, <Highlight>JavaScript,</Highlight> ES6, JSX, <OtherHighlight>React,</OtherHighlight> React Hooks, Redux, Node.js, Mongo DB, Web Accessibility, API:s, <AnotherHighlight>mob-programming,</AnotherHighlight> pair-programming, Github.
+            HTML5, CSS3, Flexbox, CSS Grid, <Highlight>JavaScript ES6,</Highlight> <SecondHighlight>React,</SecondHighlight> Redux, Styled components, Node.js, Mongo DB, Express.js, API:s, <ThirdHighlight>mob-programming,</ThirdHighlight> pair-programming, Github.
         </Paragraph>
       </TechStack>
     </TechWrapper>
