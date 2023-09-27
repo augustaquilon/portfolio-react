@@ -122,6 +122,11 @@ background-color: var(--blue-light);
  };
 `
 
+const ProjectImage = styled.img`
+    width: 100%;
+    height: auto;
+    max-width: 300px;`
+
 const Projects = () => {
   return (
     <ProjectsWrapper>
@@ -133,8 +138,8 @@ const Projects = () => {
         {projectList.map(({ title, img, alt, description, tech, demo, hasBackendCode, code }) => {
           return (
             <ProjectWrapper key={title}>
-              <div className="project-image-group">
-                <img className="project-image" src={img} alt={alt} loading="lazy" />
+              <div>
+                <ProjectImage className="project-image" src={img} alt={alt} loading="lazy" />
               </div>
               <ProjectInnerWrapper>
                 <Heading6>{title}</Heading6>

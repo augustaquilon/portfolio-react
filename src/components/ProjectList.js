@@ -1,4 +1,6 @@
 /* eslint-disable max-len */
+import HappyThoughtsImg from 'images/happy-thoughts-img.jpg';
+
 export const projectList = [
   // {
   //   title: 'The Arcade',
@@ -15,7 +17,7 @@ export const projectList = [
   // },
   {
     title: 'Happy Thoughts App',
-    img: '',
+    img: `${HappyThoughtsImg}`,
     alt: 'picture of computer',
     description: 'Like Twitter, but nicer. First fullstack project, built with MERN-stack.',
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
@@ -28,7 +30,7 @@ export const projectList = [
   },
   {
     title: 'To-do App',
-    img: '',
+    img: './images/todo-app-image_upscayl_4x_realesrgan-x4plus-anime.jpg',
     alt: 'picture of computer',
     description: 'My version of a to-do list, built with React and Redux using styled components for the first time.',
     tech: ['JavaScript', 'Redux', 'React', 'Styled Components'],

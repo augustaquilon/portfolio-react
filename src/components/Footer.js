@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 // image
-import Headshot from 'assets/images/Cute Avatar.png';
+import Headshot from 'images/Cute Avatar.png';
 
 // components
 import { Heading6Bigger, Heading1, Heading2, Heading3, ContactDetails } from './Typography';
