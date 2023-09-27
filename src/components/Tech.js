@@ -1,6 +1,7 @@
 /* eslint-disable max-len */
 import React from 'react';
 import styled from 'styled-components/macro';
+import { Fade } from 'react-awesome-reveal';
 
 // components
 
@@ -54,12 +55,15 @@ color: white;
 const Tech = () => {
   return (
     <TechWrapper>
-      <Heading4>Tech</Heading4>
-      <TechStack>
-        <Paragraph>
-            HTML5, CSS3, Flexbox, CSS Grid, <Highlight>JavaScript ES6,</Highlight> <SecondHighlight>React,</SecondHighlight> Redux, Styled components, Node.js, Mongo DB, Express.js, API:s, <ThirdHighlight>mob-programming,</ThirdHighlight> pair-programming, Github.
-        </Paragraph>
-      </TechStack>
+      <Fade
+        duration={2000}>
+        <Heading4>Tech</Heading4>
+        <TechStack>
+          <Paragraph>
+            HTML5, CSS3, Flexbox, CSS Grid, <Highlight>JavaScript ES6,</Highlight> Styled components, <SecondHighlight>React,</SecondHighlight> Redux, Node.js, Mongo DB, Express.js, API:s, <ThirdHighlight>mob-programming,</ThirdHighlight> pair-programming, Github.
+          </Paragraph>
+        </TechStack>
+      </Fade>
     </TechWrapper>
   )
 }
