@@ -42,7 +42,7 @@ const Footer = () => {
       </Heading6Bigger>
       <HeadingsAndPicture>
         <PictureWrapper>
-          <Picture src={Headshot} />
+          <Picture src={Headshot} alt="headshot" />
         </PictureWrapper>
         <HeroHeadings>
           <Heading1>
