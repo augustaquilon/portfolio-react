@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components/macro';
 
 // components
-import { Heading5Bigger, PinkHighlight, BlueHighlight, DarkBlueHighlight, GreenHighlight, ListItem } from './Typography';
+import { Heading5Bigger, PinkHighlight, BlueHighlight, DarkBlueHighlight, GreyHighlight, ListItem } from './Typography';
 
 const SkillsWrapper = styled.section`
   display: flex;
@@ -92,7 +92,7 @@ const Skills = () => {
           </List>
         </ListWrapper>
         <ListWrapper>
-          <GreenHighlight>Upcoming </GreenHighlight>
+          <GreyHighlight>Upcoming </GreyHighlight>
           <List>
             {UpcomingSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
           </List>

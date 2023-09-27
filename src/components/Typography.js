@@ -99,8 +99,8 @@ background-color: var(--blue-medium);`
 export const DarkBlueHighlight = styled(BlueHighlight)`
 background-color: var(--blue-royal);`
 
-export const GreenHighlight = styled(DarkBlueHighlight)`
-background-color: var(--green);`
+export const GreyHighlight = styled(DarkBlueHighlight)`
+background-color: var(--grey-dark);`
 
 export const ListItem = styled.li`
 font-size: 22px;

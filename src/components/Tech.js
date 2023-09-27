@@ -46,7 +46,7 @@ const OtherHighlight = styled(Highlight)`
 `
 
 const AnotherHighlight = styled(Highlight)`
-background: var(--blue-medium);
+background: var(--grey-dark);
 color: white;
 `
 
