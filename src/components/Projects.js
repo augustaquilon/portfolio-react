@@ -49,7 +49,13 @@ const ProjectsWrapper = styled.section`
     padding-top: 120px;
   };
   @media screen and (min-width: 1024px) {
-      padding: 120px 230px;
+      padding: 120px 85px;
+  };
+  @media screen and (min-width: 1280px) {
+    padding: 120px 220px 92px;
+};
+@media screen and (min-width: 1512px) {
+  padding: 120px 346px 92px;
   };
 `
 
@@ -77,8 +83,8 @@ const ProjectInnerWrapper = styled.div`
   height: auto;
   gap: 10px;
     @media screen and (min-width: 668px) {
-      max-width: 100%;
-    }
+      max-width: 700%;
+    };
 `
 
 const ButtonIcon = styled.svg`
@@ -141,7 +147,11 @@ const ProjectImage = styled.img`
       height: 280px;
       width: 184px;
       object-fit: cover;
-    }
+    };
+    @media screen and (min-width: 1024px) {
+      height: 280px;
+      width: 280px;
+    };
     `
 
 const Projects = () => {

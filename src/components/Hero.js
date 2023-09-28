@@ -76,7 +76,7 @@ margin-right: -24px;
 display: none;
 @media screen and (min-width: 668px) {
   display: flex;
-      height: 546px;
+      height: 572px;
       justify-content: center;
       overflow: hidden;
 };
@@ -168,8 +168,7 @@ const Hero = () => {
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph> A dynamic developer, artist, and musician who weaves creativity seamlessly into code using React, the MERN stack, Midjourney and more. With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
-          <Paragraph>With a background in the arts, Nino not only possesses technical expertise but also a deep understanding of user experience, aesthetics, and the power of collaboration.</Paragraph>
+          <Paragraph> A dynamic developer who weaves creativity seamlessly into code using React, the MERN stack, Midjourney and more. With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

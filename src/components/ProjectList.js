@@ -26,7 +26,7 @@ export const projectList = [
   //   }
   // },
   {
-    title: '🌟 Happy Thoughts: Spreading Positivity, One Post at a Time 🐦🌞',
+    title: '🌟 Happy Thoughts: Spreading Positivity, One Post at a Time 🌞',
     img: `${HappyThoughtsImg}`,
     alt: 'picture of computer',
     description: 'Introducing "Happy Thoughts," a heartwarming project much like Twitter, but with a kinder touch. This full-stack platform is designed to inspire and uplift. The frontend is built with React, while the backend is powered by the MERN stack (MongoDB, Express.js, React, and Node.js). Ready to send a little love?',
