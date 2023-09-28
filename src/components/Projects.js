@@ -10,18 +10,13 @@ import { projectList } from './ProjectList';
 import { Heading5, Heading6, ProjectDescription } from './Typography';
 
 const ButtonsWrapper = styled.section`
-  margin-top: 4em;
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  max-width: 500px;
-  width: 100%;
-  height: auto;
+  gap: 24px;
   flex-wrap: wrap;
   @media screen and (min-width: 668px) {
       flex-direction: row;
       align-items: center;
-      margin-top: 4em;
   }
 `
 
@@ -39,11 +34,9 @@ const TagsWrapper = styled.div`
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 4px;
   font-size: 12px;
-  width: 100%;
-    max-width: 500px;
-    height: auto;
+  padding-bottom: 24px;
 `
 
 const ProjectsWrapper = styled.section`
@@ -54,24 +47,38 @@ const ProjectsWrapper = styled.section`
   align-items: flex-start;
   @media screen and (min-width: 668px) {
     padding-top: 120px;
-  }
+  };
   @media screen and (min-width: 1024px) {
-      margin: 120px 230px;
-      gap: 120px;
-  }
+      padding: 120px 230px;
+  };
 `
 
 const ProjectWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-bottom: 10px;
+  padding-bottom: 80px;
+  @media screen and (min-width: 668px) {
+    flex-direction: row;
+    gap: 24px;
+  }
+  @media screen and (min-width: 1024px) {
+    flex-direction: row;
+    gap: 40px;
+    padding-bottom: 120px;
+  }
 `
 
 const ProjectInnerWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin-bottom: 5em;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  gap: 10px;
+    @media screen and (min-width: 668px) {
+      max-width: 100%;
+    }
 `
 
 const ButtonIcon = styled.svg`
@@ -122,10 +129,20 @@ background-color: var(--blue-light);
  };
 `
 
+const ProjectImageWrapper = styled.div`
+padding-bottom: 24px;`
+
 const ProjectImage = styled.img`
     width: 100%;
     height: auto;
-    max-width: 300px;`
+    max-width: 500px;
+    @media screen and (min-width: 668px) {
+      max-width: 100%;
+      height: 280px;
+      width: 184px;
+      object-fit: cover;
+    }
+    `
 
 const Projects = () => {
   return (
@@ -138,9 +155,9 @@ const Projects = () => {
         {projectList.map(({ title, img, alt, description, tech, demo, hasBackendCode, code }) => {
           return (
             <ProjectWrapper key={title}>
-              <div>
+              <ProjectImageWrapper>
                 <ProjectImage className="project-image" src={img} alt={alt} loading="lazy" />
-              </div>
+              </ProjectImageWrapper>
               <ProjectInnerWrapper>
                 <Heading6>{title}</Heading6>
                 <ProjectDescription>{description}</ProjectDescription>

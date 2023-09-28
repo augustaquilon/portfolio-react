@@ -59,6 +59,7 @@ export const Heading6 = styled.h6`
   font-family: Satoshi;
   font-weight: 900;
   word-wrap: break-word;
+  margin: 0;
 `
 
 export const Heading5Bigger = styled(Heading5)`
@@ -113,9 +114,6 @@ word-wrap: break-word
 export const ProjectDescription = styled(Paragraph)`
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 100%;
-    max-width: 500px;
-    height: auto;
 `
 
 export const ContactDetails = styled.p`
