@@ -1,0 +1,53 @@
+import styled from 'styled-components/macro';
+
+export const SkillsWrapper = styled.section`
+  display: flex;
+  margin-left: -24px;
+  margin-right: -24px;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  padding-top: 64px;
+  padding-bottom: 147px;
+  background-color: var(--pink-light);
+  @media screen and (min-width: 668px) {
+    padding-top: 121px;
+    padding-bottom: 155px;
+  }
+`
+
+export const ListOuterWrapper = styled.div`
+margin-left: 24px;
+  margin-right: 24px;
+@media screen and (min-width: 668px) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 2em;
+  margin-bottom: 3em;
+};
+@media screen and (min-width: 1024px) {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3em;
+}
+`
+
+export const ListWrapper = styled.div`
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em;
+  @media screen and (min-width: 668px) {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 2em;
+  }
+`
+
+export const List = styled.ul`
+text-align: center;
+@media screen and (min-width: 668px) {
+  text-align: left;
+}
+`
