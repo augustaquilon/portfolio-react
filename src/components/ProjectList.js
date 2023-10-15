@@ -12,19 +12,19 @@ import SurveyImg from 'images/survey-img.jpg';
 import QuizImg from 'images/quiz-img.jpg';
 
 export const projectList = [
-  // {
-  //   title: 'The Arcade',
-  //   img: '',
-  //   alt: 'picture of computer',
-  //   description: '',
-  //   tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
-  //   demo: '',
-  //   hasBackendCode: true,
-  //   code: {
-  //     frontend: '',
-  //     backend: ''
-  //   }
-  // },
+  {
+    title: 'Coming up: The Arcade',
+    img: '',
+    alt: 'picture of computer',
+    description: '',
+    tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
+    demo: '',
+    hasBackendCode: true,
+    code: {
+      frontend: '',
+      backend: ''
+    }
+  },
   {
     title: '🌟 Happy Thoughts: Spreading Positivity, One Post at a Time 🌞',
     img: `${HappyThoughtsImg}`,
