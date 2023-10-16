@@ -1,3 +1,5 @@
+/* eslint-disable no-nested-ternary */
+/* eslint-disable max-len */
 import React from 'react';
 import { Fade } from 'react-awesome-reveal';
 
@@ -18,6 +20,7 @@ const Projects = () => {
             Featured Projects
         </Heading5>
         {projectList.map(({ title, img, alt, description, tech, demo, hasBackendCode, code }) => {
+          const isAnyLinkEmpty = demo === '' || code === '' || code.frontend === '' || (hasBackendCode && code.backend === '');
           return (
             <ProjectWrapper key={title}>
               <ProjectImageWrapper>
@@ -29,7 +32,15 @@ const Projects = () => {
                 <TagsWrapper>{tech.map((tag) => <Tags key={tag}>{tag}</Tags>)}</TagsWrapper>
                 <ButtonsWrapper>
                   {hasBackendCode ? (
-                    <Button href={code.backend || code} target="_blank" rel="noreferrer">
+                    <Button
+                      href={code.backend || code}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        pointerEvents: isAnyLinkEmpty ? 'none' : 'auto',
+                        opacity: isAnyLinkEmpty ? 0.5 : 1,
+                        cursor: isAnyLinkEmpty ? 'not-allowed' : 'pointer'
+                      }}>
                       <ButtonIcon
                         aria-hidden="true"
                         focusable="false"
@@ -42,7 +53,15 @@ const Projects = () => {
                       </ButtonIcon>
                  Backend code
                     </Button>) : (
-                    <Button href={code.frontend || code} target="_blank" rel="noreferrer">
+                    <Button
+                      href={code.frontend || code}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        pointerEvents: isAnyLinkEmpty ? 'none' : 'auto',
+                        opacity: isAnyLinkEmpty ? 0.5 : 1,
+                        cursor: isAnyLinkEmpty ? 'not-allowed' : 'pointer'
+                      }}>
                       <ButtonIcon
                         aria-hidden="true"
                         focusable="false"
@@ -57,7 +76,15 @@ const Projects = () => {
                     </Button>
                   )}
                   {hasBackendCode ? (
-                    <Button href={code.frontend || code} target="_blank" rel="noreferrer">
+                    <Button
+                      href={code.frontend || code}
+                      target="_blank"
+                      rel="noreferrer"
+                      style={{
+                        pointerEvents: isAnyLinkEmpty ? 'none' : 'auto',
+                        opacity: isAnyLinkEmpty ? 0.5 : 1,
+                        cursor: isAnyLinkEmpty ? 'not-allowed' : 'pointer'
+                      }}>
                       <ButtonIcon
                         aria-hidden="true"
                         focusable="false"
@@ -71,7 +98,15 @@ const Projects = () => {
                Frontend code
                     </Button>
                   ) : null}
-                  <OtherButton href={demo} target="_blank" rel="noreferrer">
+                  <OtherButton
+                    href={demo}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      pointerEvents: isAnyLinkEmpty ? 'none' : 'auto',
+                      opacity: isAnyLinkEmpty ? 0.5 : 1,
+                      cursor: isAnyLinkEmpty ? 'not-allowed' : 'pointer'
+                    }}>
                     <ButtonIcon
                       aria-hidden="true"
                       focusable="false"

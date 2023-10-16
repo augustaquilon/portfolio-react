@@ -118,6 +118,11 @@ export const Button = styled.a`
   };
 `
 
+export const DisabledButton = styled(Button)`
+pointer-events: none;
+background-color: var(--grey-dark);
+color: white;`
+
 export const OtherButton = styled(Button)`
 background-color: var(--blue-light);
 &:hover {
