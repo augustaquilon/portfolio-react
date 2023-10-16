@@ -28,9 +28,11 @@ export const HeadingsAndPicture = styled.div`
       display: flex;
       flex-direction: column;
       justify-content: center;
+      padding-bottom: 20px;
       @media screen and (min-width: 668px) {
         flex-direction: row;
         gap: 29px;
+        padding-bottom: 0;
       }
       @media screen and (min-width: 1024px) {
       justify-content: flex-start;
