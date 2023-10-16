@@ -25,12 +25,12 @@ const Hero = () => {
             <Picture src={Headshot} id="headshot" alt="headshot" />
           </PictureWrapper>
           <HeroHeadings>
-            <Slide>
+            <Slide triggerOnce>
               <Heading1>
                   Meet
               </Heading1>
             </Slide>
-            <Fade delay={1e3} cascade damping={1e-1}>
+            <Fade triggerOnce delay={1e3} cascade damping={1e-1}>
               <Heading2>
                   Nino Aquilon
               </Heading2>

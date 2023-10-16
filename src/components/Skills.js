@@ -1,5 +1,4 @@
 import React from 'react';
-import { Fade } from 'react-awesome-reveal';
 
 // components
 import { Heading5Bigger, PinkHighlight, BlueHighlight, DarkBlueHighlight, GreyHighlight, ListItem } from './Typography';
