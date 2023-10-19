@@ -73,7 +73,7 @@ const BlobModal = () => {
           </CloseButton>
           <AttentionSeeker effect="pulse">
             <BlobGroup>
-              <BlobText>I created the images for this portfolio in Midjourney, for example!</BlobText>
+              <BlobText>All the images on this website were created using Midjourney, for example!</BlobText>
               <BlobImage src={Blobs} alt="blobs" />
             </BlobGroup>
           </AttentionSeeker>
