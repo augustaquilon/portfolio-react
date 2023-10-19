@@ -44,7 +44,7 @@ const Footer = () => {
                 +46(0)734646167
         </ContactDetails>
         <ContactDetails>
-                tess.aquilon@gmail.com
+                nino.aquilon@gmail.com
         </ContactDetails>
       </ContactDetailsWrapper>
       <IconsWrapper>
