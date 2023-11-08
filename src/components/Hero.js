@@ -5,9 +5,6 @@ import React from 'react';
 import Headshot from 'images/Cute Avatar.png';
 import Background from 'images/hero-img.png';
 
-// motion design
-import { Fade, Slide } from 'react-awesome-reveal';
-
 // components
 import { Heading1, Heading2, Paragraph } from './Typography';
 import BlobModal from './BlobModal';
@@ -25,23 +22,19 @@ const Hero = () => {
             <Picture src={Headshot} id="headshot" alt="headshot" />
           </PictureWrapper>
           <HeroHeadings>
-            <Slide triggerOnce>
-              <Heading1>
+
+            <Heading1>
                   Meet
-              </Heading1>
-            </Slide>
-            <Fade triggerOnce delay={1e3} cascade damping={1e-1}>
-              <Heading2>
+            </Heading1>
+
+            <Heading2>
                   Nino Aquilon
-              </Heading2>
-            </Fade>
-            {/* <Heading3>
-                  front-end developer & more
-            </Heading3> */}
+            </Heading2>
+
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph> A dynamic React developer who weaves creativity seamlessly into code using Figma,  <BlobModal /> and more. </Paragraph><Paragraph>With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
+          <Paragraph> A dynamic React developer who weaves creativity seamlessly into code using generative AI tools such as  <BlobModal /> and more. </Paragraph><Paragraph>With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

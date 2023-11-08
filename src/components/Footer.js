@@ -3,9 +3,6 @@ import React from 'react';
 // image
 import Headshot from 'images/Cute Avatar.png';
 
-// motion design
-import { Fade, Slide, AttentionSeeker } from 'react-awesome-reveal';
-
 // components
 import { Heading6Bigger, Heading1, Heading2, Heading3, ContactDetails } from './Typography';
 import { HeadingsAndPicture, HeroHeadings, Picture, PictureWrapper, IconsWrapper, IconButton } from './HeroStyles.js';
@@ -22,21 +19,19 @@ const Footer = () => {
           <Picture src={Headshot} alt="headshot" />
         </PictureWrapper>
         <HeroHeadings>
-          <Slide triggerOnce>
-            <Heading1>
+
+          <Heading1>
                 Nino Aquilon
-            </Heading1>
-          </Slide>
-          <Fade triggerOnce delay={1000} cascade damping={0.5}>
-            <Heading2>
+          </Heading1>
+
+          <Heading2>
                 Front-end developer
-            </Heading2>
-          </Fade>
-          <AttentionSeeker triggerOnce delay={1500}>
-            <Heading3>
+          </Heading2>
+
+          <Heading3>
                 + much, much more
-            </Heading3>
-          </AttentionSeeker>
+          </Heading3>
+
         </HeroHeadings>
       </HeadingsAndPicture>
       <ContactDetailsWrapper>

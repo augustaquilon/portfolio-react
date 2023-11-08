@@ -10,17 +10,30 @@ import CatImg from 'images/catbot-img.jpg';
 import GameImg from 'images/guesswho-img.jpg';
 import SurveyImg from 'images/survey-img.jpg';
 import QuizImg from 'images/quiz-img.jpg';
-import ArcadeImg from 'images/arcade-img.jpg'
+import ArcadeImg from 'images/arcade-img.jpg';
+import SunriseImg from 'images/sunrise-img.jpg';
 
 export const projectList = [
+  {
+    title: '🦋 Dora x Minh 3D Website Challenge 🌅',
+    img: `${SunriseImg}`,
+    alt: 'a cute 3D illustration of a sunrise',
+    description: 'Dive into the captivating world of A Manatee Imagines a Butterfly, the solo project of versatile Swedish artist Leonard Malmer. Meticulously crafted using Dora, the revolutionary No-Code 3D web development platform, this website is a synesthetic fusion of sight and sound, where the ethereal melodies of recent single "Sunrise" intertwine with dynamic visuals, brought to life by Nino using Midjourney AI.',
+    tech: ['Dora', 'Midjourney AI'],
+    demo: 'https://sunriise.dora.run/',
+    hasBackendCode: false,
+    isNoCode: true,
+    code: 'https://sunriise.dora.run/'
+  },
   {
     title: '🕹️ The Arcade: Where Gamers Unite for Retro Fun 🎮 (UPCOMING)',
     img: `${ArcadeImg}`,
     alt: 'a cute 3D illustration of an arcade game machine',
-    description: 'Introducing "The Arcade", the ultimate social platform for arcade game enthusiasts! This full-stack project was meticulously designed and built ground up by Nino Aquilon & Daniel Brobäck, to create an immersive gaming experience for all users. Dive into a world of shared passion and nostalgia, where every pixel resonates with the thrill of classic arcade gaming 👾. Ready to join the fun?',
-    tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js'],
+    description: 'Introducing "The Arcade", the ultimate social platform for arcade game enthusiasts! This full-stack project was built ground up by Nino Aquilon & Daniel Brobäck, to create an immersive gaming experience for all users. Dive into a world of shared passion and nostalgia, where every pixel resonates with the thrill of classic arcade gaming 👾. Ready to join the fun?',
+    tech: ['HTML', 'CSS', 'Figma', 'JavaScript', 'API', 'React', 'MongoDB', 'Express.js', 'Node.js', 'Midjourney AI'],
     demo: '',
     hasBackendCode: true,
+    isNoCode: false,
     code: {
       frontend: '',
       backend: 'https://the-arcade-backend-6426jh4m2a-no.a.run.app/'
@@ -34,6 +47,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
     demo: 'https://ninos-happy-thoughts.netlify.app/',
     hasBackendCode: true,
+    isNoCode: false,
     code: {
       frontend: 'https://ninos-happy-thoughts.netlify.app/',
       backend: 'https://project-happy-thoughts-api-sfjig4oswa-lz.a.run.app/'
@@ -47,6 +61,7 @@ export const projectList = [
     tech: ['JavaScript', 'Redux', 'React', 'Styled Components'],
     demo: 'https://ninos-todos.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-todos'
   },
   {
@@ -57,6 +72,7 @@ export const projectList = [
     tech: ['Styled Components', 'JavaScript', 'Redux', 'React', 'Mob-Programming'],
     demo: 'https://the-last-quiz.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/JosefinRobertsson/project-redux-quiz'
   },
   {
@@ -67,6 +83,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'React', 'Styled components', 'Figma', 'Mob-programming'],
     demo: 'https://ninos-design-handoff.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-design-handoff'
   },
   {
@@ -77,6 +94,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://heartfelt-torrone-e608c2.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-movies'
   },
   {
@@ -87,6 +105,7 @@ export const projectList = [
     tech: ['React', 'Redux'],
     demo: 'https://zippy-vacherin-041127.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-labyrinth'
   },
   {
@@ -97,6 +116,7 @@ export const projectList = [
     tech: ['HTML', 'JavaScript', 'React', 'CSS'],
     demo: 'https://music-survey-react.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-survey'
   },
   {
@@ -107,6 +127,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'Pair-Programming'],
     demo: 'https://hippos-weather.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/EmmaEngvall/project-weather-app'
   },
   {
@@ -117,6 +138,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Pair-Programming'],
     demo: 'https://t-and-t-music-release-app.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/theresBL/project-music-releases'
   },
   {
@@ -127,6 +149,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://ninos-guess-who.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-guess-who'
   },
   {
@@ -137,6 +160,7 @@ export const projectList = [
     tech: ['HTML', 'CSS', 'JavaScript'],
     demo: 'https://bob-the-catbot.netlify.app/',
     hasBackendCode: false,
+    isNoCode: false,
     code: 'https://github.com/codeandjazz/project-chatbot'
   }
 ]
