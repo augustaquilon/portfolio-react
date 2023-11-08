@@ -26,17 +26,19 @@ position: relative;
 text-align: center;
 `
 
-export const BlobImage = styled.img`
-`
-
 export const BlobText = styled.p`
 position: absolute;
-    bottom: 70px;
-    right: 35px;
+background: black;
     font-family: "EB Garamond", serif;
-    font-size: 22px;
-    width: 70%;
+    font-size: 1em;
+    width: 55%;
     color: white;
+`
+
+export const BubbleGroup = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
 `
 
 export const ModalWrapper = styled.section`
@@ -71,3 +73,9 @@ width: 2.5rem;
 export const ButtonIcon = styled.svg`
 width: 100%;
     height: 100%;`
+
+export const FlowerImg = styled.img`
+width: 80vw;
+max-width: 300px;
+height: 100%;
+`

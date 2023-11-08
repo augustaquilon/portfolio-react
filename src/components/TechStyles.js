@@ -1,6 +1,6 @@
 import styled from 'styled-components/macro';
 
-export const TechWrapper = styled.section`
+export const TechWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,4 +44,8 @@ export const PinkHighlight = styled(BlueHighlight)`
 export const MediumBlueHighlight = styled(BlueHighlight)`
 background: var(--blue-medium);
 color: white;
+`
+export const BlobImage = styled.img`
+width: 80vw;
+height: auto;
 `
