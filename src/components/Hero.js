@@ -7,7 +7,6 @@ import Background from 'images/hero-img.png';
 
 // components
 import { Heading1, Heading2, Paragraph } from './Typography';
-import BlobModal from './BlobModal';
 import { HeroWrapper, LogoWrapper, LogoImage, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton } from './HeroStyles';
 
 const Hero = () => {
@@ -34,7 +33,7 @@ const Hero = () => {
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph> A dynamic React developer who weaves creativity seamlessly into code using generative AI tools such as  <BlobModal /> and more. </Paragraph><Paragraph>With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
+          <Paragraph> A dynamic React developer who weaves creativity seamlessly into code, using AI tools such as Midjourney to generate visual content. For example, everything on this website.</Paragraph><Paragraph>With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

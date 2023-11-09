@@ -45,7 +45,3 @@ export const MediumBlueHighlight = styled(BlueHighlight)`
 background: var(--blue-medium);
 color: white;
 `
-export const BlobImage = styled.img`
-width: 80vw;
-height: auto;
-`
