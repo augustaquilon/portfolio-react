@@ -7,7 +7,7 @@ import Background from 'images/hero-img.png';
 
 // components
 import { Heading1, Heading2, Paragraph } from './Typography';
-import { HeroWrapper, LogoWrapper, LogoImage, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton } from './HeroStyles';
+import { HeroWrapper, LogoWrapper, LogoImage, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton, Link } from './HeroStyles';
 
 const Hero = () => {
   return (
@@ -33,7 +33,11 @@ const Hero = () => {
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph> A dynamic React developer who weaves creativity seamlessly into code, using AI tools such as Midjourney to generate visual content. For example, everything on this website.</Paragraph><Paragraph>With a rich portfolio of successful projects, a collaborative spirit, and an innovative mindset, Nino is your go-to partner for transforming imaginative concepts into extraordinary digital experiences.</Paragraph>
+          <Paragraph>A dynamic developer, a competent problem-solver, and a passionate creative – with a heart of gold.</Paragraph>
+          <Paragraph>Since graduating from <Link href="https://www.technigo.io/web-development-boot-camp">Technigo’s Web Development Bootcamp</Link> in June 2023, Nino has become the recipient of <Link href="https://www.shesharp.co/new-in-tech-scholarship">SheSharp’s New in Tech scholarship</Link>. He has already built a rich portfolio of successful projects, and is currently advancing his skills in UX-design through <Link href="https://frontendmasters.com/">FrontendMasters</Link>.</Paragraph>
+          <Paragraph>With a collaborative spirit and an innovative mindset, Nino is your go-to partner for creating extraordinary digital experiences, using
+cutting-edge technology such as <a href="https://www.midjourney.com/">Midjourney AI</a>. See examples below.
+          </Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

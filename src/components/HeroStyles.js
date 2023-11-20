@@ -136,3 +136,18 @@ export const HeroInnerWrapper = styled.section`
   padding-right: 50px;
 }
 `
+export const Link = styled.a`
+/* unvisited link */
+&:link {
+  color: var(--blue-royal);
+}
+
+/* visited link */
+&:visited {
+  color: var(--pink);
+}
+
+/* selected link */
+&:active {
+  var(--blue-medium);
+}`

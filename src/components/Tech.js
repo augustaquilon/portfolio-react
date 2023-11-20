@@ -15,7 +15,7 @@ const Tech = () => {
         <Heading4>Tech</Heading4>
         <TechStack>
           <Paragraph>
-            HTML5, CSS3, Flexbox, CSS Grid, <BlueHighlight>JavaScript ES6,</BlueHighlight> JSX, <PinkHighlight>React,</PinkHighlight>, React Hooks, Styled components, Redux, Node.js, Mongo DB, Express.js, API:s,  pair-programming, <MediumBlueHighlight>mob-programming,</MediumBlueHighlight>Github.
+            HTML5, CSS3, Flexbox, CSS Grid, <BlueHighlight>JavaScript ES6,</BlueHighlight> JSX, <PinkHighlight>React,</PinkHighlight>, React Hooks, Styled components, Redux, Node.js, Mongo DB, Express.js, REST:ful API:s,  pair-programming, <MediumBlueHighlight>mob-programming,</MediumBlueHighlight>Github.
           </Paragraph>
         </TechStack>
       </Fade>
