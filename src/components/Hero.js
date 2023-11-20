@@ -36,7 +36,7 @@ const Hero = () => {
           <Paragraph>A dynamic developer, a competent problem-solver, and a passionate creative – with a heart of gold.</Paragraph>
           <Paragraph>Since graduating from <Link href="https://www.technigo.io/web-development-boot-camp">Technigo’s Web Development Bootcamp</Link> in June 2023, Nino has become the recipient of <Link href="https://www.shesharp.co/new-in-tech-scholarship">SheSharp’s New in Tech scholarship</Link>. He has already built a rich portfolio of successful projects, and is currently advancing his skills in UX-design through <Link href="https://frontendmasters.com/">FrontendMasters</Link>.</Paragraph>
           <Paragraph>With a collaborative spirit and an innovative mindset, Nino is your go-to partner for creating extraordinary digital experiences, using
-cutting-edge technology such as <a href="https://www.midjourney.com/">Midjourney AI</a>. See examples below.
+cutting-edge technology such as <Link href="https://www.midjourney.com/">Midjourney AI</Link>. See examples below.
           </Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
