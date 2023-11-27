@@ -8,7 +8,6 @@ import Background from 'images/hero-img.png';
 // components
 import { Heading1, Heading2, Paragraph } from './Typography';
 import { HeroWrapper, LogoWrapper, LogoImage, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton, Link } from './HeroStyles';
-import ArrowNavigation from './ArrowNavigation';
 
 const Hero = () => {
   return (
@@ -66,7 +65,6 @@ cutting-edge technology such as <Link href="https://www.midjourney.com/">Midjour
             </svg>
           </IconButton>
         </IconsWrapper>
-        <ArrowNavigation />
       </HeroInnerWrapper>
     </HeroWrapper>
   )
