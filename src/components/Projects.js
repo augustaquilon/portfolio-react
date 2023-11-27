@@ -1,6 +1,6 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable max-len */
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 // projects object
@@ -11,9 +11,9 @@ import { projectList } from './ProjectList';
 import { Heading5, Heading6, ProjectDescription } from './Typography';
 import { ProjectsWrapper, ProjectWrapper, ProjectImageWrapper, ProjectImage, ProjectInnerWrapper, TagsWrapper, Tags, ButtonsWrapper, Button, ButtonIcon, OtherButton } from './ProjectsStyles';
 
-const Projects = () => {
+const Projects = forwardRef((props, ref) => {
   return (
-    <ProjectsWrapper>
+    <ProjectsWrapper ref={ref}>
       <Fade
         duration={2000}>
         <Heading5>
@@ -154,6 +154,6 @@ const Projects = () => {
       </Fade>
     </ProjectsWrapper>
   )
-}
+});
 
 export default Projects;

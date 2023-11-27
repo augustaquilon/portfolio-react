@@ -70,6 +70,6 @@ const Footer = () => {
       </IconsWrapper>
     </ContactWrapper>
   )
-}
+};
 
 export default Footer;

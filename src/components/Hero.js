@@ -68,6 +68,6 @@ cutting-edge technology such as <Link href="https://www.midjourney.com/">Midjour
       </HeroInnerWrapper>
     </HeroWrapper>
   )
-}
+};
 
 export default Hero;

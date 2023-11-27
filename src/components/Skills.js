@@ -52,6 +52,6 @@ const Skills = () => {
       </Fade>
     </SkillsWrapper>
   )
-}
+};
 
 export default Skills;

@@ -21,6 +21,6 @@ const Tech = () => {
       </Fade>
     </TechWrapper>
   )
-}
+};
 
 export default Tech;
