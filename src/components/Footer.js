@@ -1,7 +1,7 @@
 import React from 'react';
 
 // image
-import Headshot from 'images/Cute Avatar.png';
+import Headshot from 'images/headshot.jpeg';
 
 // components
 import { Heading6Bigger, Heading1, Heading2, Heading3, ContactDetails } from './Typography';

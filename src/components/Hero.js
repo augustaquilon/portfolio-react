@@ -2,7 +2,7 @@
 import React from 'react';
 
 // images
-import Headshot from 'images/Cute Avatar.png';
+import Headshot from 'images/headshot.jpeg';
 import Background from 'images/hero-img.png';
 
 // components
