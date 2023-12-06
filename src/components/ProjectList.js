@@ -12,6 +12,8 @@ import SurveyImg from 'images/survey-img.jpg';
 import QuizImg from 'images/quiz-img.jpg';
 import ArcadeImg from 'images/arcade-img.jpg';
 import SunriseImg from 'images/sunrise-img.jpg';
+import ProjectAuthImg from 'images/auth-img.jpg';
+import ExpressImg from 'images/express-img.jpg';
 
 export const projectList = [
   {
@@ -51,6 +53,34 @@ export const projectList = [
     code: {
       frontend: 'https://ninos-happy-thoughts.netlify.app/',
       backend: 'https://project-happy-thoughts-api-sfjig4oswa-lz.a.run.app/'
+    }
+  },
+  {
+    title: 'Project Authentication: Your Secure Login System 🔐',
+    img: `${ProjectAuthImg}`,
+    alt: 'a cute 3D illustration of geometric shapes',
+    description: 'This project is a full-stack authentication system, built using React and the MERN-stack. It features a secure login system, with password encryption and validation, as well as a user-friendly interface. Ready to log in or register?',
+    tech: ['HTML', 'CSS', 'JavaScript', 'API', 'React', 'Express.js', 'MongoDB', 'Node.js'],
+    demo: 'https://ninos-project-auth.netlify.app/',
+    hasBackendCode: true,
+    isNoCode: false,
+    code: {
+      frontend: 'https://github.com/codeandjazz/project-auth',
+      backend: 'https://github.com/codeandjazz/project-auth'
+    }
+  },
+  {
+    title: 'Project Express API: Your RESTful API 🌐',
+    img: `${ExpressImg}`,
+    alt: 'a cute 3D illustration of a computer',
+    description: 'This project is a RESTful API, built using Express.js. It features data from Trans Rights Indicator Project (TRIP), and is deployed on Render. Ready to explore different routes?',
+    tech: ['Express.js', 'Node.js', 'API'],
+    demo: 'https://project-express-api-25hw.onrender.com/',
+    hasBackendCode: true,
+    isNoCode: false,
+    code: {
+      frontend: '',
+      backend: 'https://github.com/codeandjazz/project-express-api'
     }
   },
   {
