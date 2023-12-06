@@ -76,12 +76,9 @@ export const projectList = [
     description: 'This project is a RESTful API, built using Express.js. It features data from Trans Rights Indicator Project (TRIP), and is deployed on Render. Ready to explore different routes?',
     tech: ['Express.js', 'Node.js', 'API'],
     demo: 'https://project-express-api-25hw.onrender.com/',
-    hasBackendCode: true,
+    hasBackendCode: false,
     isNoCode: false,
-    code: {
-      frontend: '',
-      backend: 'https://github.com/codeandjazz/project-express-api'
-    }
+    code: 'https://github.com/codeandjazz/project-express-api'
   },
   {
     title: '✅🌟 TaskBliss: Your Cute and Organized TodoList App 📝🎨',
