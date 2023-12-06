@@ -33,11 +33,10 @@ const Hero = () => {
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph>A dynamic developer, a competent problem-solver, and a passionate creative – with lots of soft skills.</Paragraph>
+          <Paragraph>A dynamic developer with excellent problem-solving abilities - and lots of soft skills.</Paragraph>
+          <Paragraph>I build full-stack applications using HTML, CSS, Javascript and the MERN-stack, and I create images for my websites using <Link href="https://www.midjourney.com/">Midjourney AI</Link>.</Paragraph>
           <Paragraph>Since graduating from <Link href="https://www.technigo.io/web-development-boot-camp">Technigo’s Web Development Bootcamp</Link> in June 2023, I have become the recipient of <Link href="https://www.shesharp.co/new-in-tech-scholarship">SheSharp’s New in Tech scholarship</Link>. I have already built a rich portfolio of successful projects, and am currently advancing my skills through <Link href="https://frontendmasters.com/">FrontendMasters</Link>.</Paragraph>
-          <Paragraph>With a collaborative spirit and an innovative mindset, I am your go-to partner for creating extraordinary digital experiences, using
-cutting-edge technology such as <Link href="https://www.midjourney.com/">Midjourney AI</Link>. See examples below.
-          </Paragraph>
+          <Paragraph>I am passionate about new tech and collaboration. In my spare time, I like to watch Drag Race.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

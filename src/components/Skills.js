@@ -9,11 +9,11 @@ import { SkillsWrapper, ListOuterWrapper, ListWrapper, List } from './SkillsStyl
 
 const CodeSkills = ['HTML5', 'CSS3', 'Javascript ES6', 'React.js', 'Styled components', 'Github', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose'];
 
-const ToolboxSkills = ['Midjourney', 'ChatGPT', 'Postman', 'Figma', 'MongoDB Atlas', 'MongoDB Compass', 'Slack', 'Notion'];
+const ToolboxSkills = ['Midjourney AI', 'ChatGPT', 'Postman', 'Figma', 'Slack', 'Notion'];
 
-const MoreSkills = ['Agile methodology', 'Web Accessibility', 'Time management', 'Growth mindset'];
+const MoreSkills = ['Communication', 'Agile methodology', 'Web accessibility', 'Time management', 'Growth mindset'];
 
-const UpcomingSkills = ['UX-design', 'Typescript'];
+const UpcomingSkills = ['UX design', 'Typescript'];
 
 const Skills = () => {
   return (
