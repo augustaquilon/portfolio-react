@@ -51,8 +51,8 @@ export const projectList = [
     hasBackendCode: true,
     isNoCode: false,
     code: {
-      frontend: 'https://ninos-happy-thoughts.netlify.app/',
-      backend: 'https://project-happy-thoughts-api-sfjig4oswa-lz.a.run.app/'
+      frontend: 'https://github.com/codeandjazz/project-happy-thoughts',
+      backend: 'https://github.com/codeandjazz/project-happy-thoughts-api'
     }
   },
   {
