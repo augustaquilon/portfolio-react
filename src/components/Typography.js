@@ -2,7 +2,7 @@ import styled from 'styled-components/macro';
 
 export const Heading1 = styled.h1`
   font-size: 28px;
-  font-family: Satoshi;
+  font-family: var(--mono);
   font-weight: 700;
   word-wrap: break-word;
   font-weight: 700;
@@ -11,11 +11,11 @@ export const Heading1 = styled.h1`
 
 export const Heading2 = styled.h2`
   font-size: 32px;
-  font-family: Satoshi;
+  font-family: var(--mono);
   font-weight: 900;
   word-wrap: break-word;
   margin-top: 7px;
-  color: #000;
+  color: var(--ltblue);
 `
 
 export const Heading3 = styled.h3`
@@ -33,10 +33,10 @@ export const Heading3 = styled.h3`
 
 export const Heading4 = styled.h4`
   font-size: 80px;
-  font-family: Satoshi;
-  font-weight: 700;
+  font-family: var(--mono);
+  font-weight: 900;
   word-wrap: break-word;
-  color: var(--blue-royal);
+  color: var(--purple);
   margin-bottom: 60px;
   @media screen and (min-width: 668px) {
     font-size: 5.5rem;
@@ -45,19 +45,19 @@ export const Heading4 = styled.h4`
 
 export const Heading5 = styled.h5`
   font-size: 72px;
-  font-family: Satoshi;
-  font-weight: 700;
+  font-family: var(--mono);
+  font-weight: 900;
   line-height: 80px;
   word-wrap: break-word;
-  color: var(--blue-royal);
+  color: var(--dkgreen);
   margin-bottom: 40px;
 `
 
 export const Heading6 = styled.h6`
-  color: #000;
+color: var(--dkgreen);
   font-size: 32px;
-  font-family: Satoshi;
-  font-weight: 900;
+  font-family: var(--mono);
+  font-weight: 400;
   word-wrap: break-word;
   margin: 0;
 `
@@ -77,12 +77,24 @@ align-self: center;
 `
 
 export const Paragraph = styled.p`
-  font-family: 'EB Garamond', serif;
+  font-family: var(--mono);
   font-size: 22px;
   font-weight: 400;
   word-wrap: break-word;
   line-height: 29px;
+  color: var(--ltblue);
 `
+
+export const PurpleParagraph = styled(Paragraph)`
+color: var(--purple);
+`
+
+export const GreenParagraph = styled(Paragraph)`
+color: var(--dkgreen);
+margin-top: 10px;
+margin-bottom: 10px;
+`
+
 export const PinkHighlight = styled.p`
 color: #fff;
 background-color: var(--pink);
@@ -109,11 +121,6 @@ font-family: EB Garamond;
 font-weight: 400;
 line-height: 32px;
 word-wrap: break-word
-`
-
-export const ProjectDescription = styled(Paragraph)`
-  margin-top: 10px;
-  margin-bottom: 10px;
 `
 
 export const ContactDetails = styled.p`

@@ -3,18 +3,14 @@ import React from 'react';
 
 // images
 import Headshot from 'images/headshot.jpeg';
-import Background from 'images/hero-img.png';
 
 // components
-import { Heading1, Heading2, Paragraph } from './Typography';
-import { HeroWrapper, LogoWrapper, LogoImage, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton, Link } from './HeroStyles';
+import { Heading2, Paragraph } from './Typography';
+import { HeroWrapper, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton, Link } from './HeroStyles';
 
 const Hero = () => {
   return (
     <HeroWrapper>
-      <LogoWrapper>
-        <LogoImage src={Background} alt="background" />
-      </LogoWrapper>
       <HeroInnerWrapper>
         <HeadingsAndPicture>
           <PictureWrapper>
@@ -22,21 +18,26 @@ const Hero = () => {
           </PictureWrapper>
           <HeroHeadings>
 
-            <Heading1>
+            {/* <Heading1>
                   Hi, I’m
-            </Heading1>
+            </Heading1> */}
 
             <Heading2>
-                  Nino Aquilon <span role="img" aria-label="wave">👋</span>
+                  Hi, nice to meet you <span role="img" aria-label="wave">👋</span>
             </Heading2>
+            <Heading2>I’m Nino Aquilon</Heading2>
+            <Heading2>A front-end developer, recent <Link href="https://www.shesharp.co/new-in-tech-scholarship">scholarship</Link> recipient and <Link href="https://www.technigo.io/web-development-boot-camp">bootcamp</Link> graduate</Heading2>
 
           </HeroHeadings>
         </HeadingsAndPicture>
         <HeroTextWrapper>
-          <Paragraph>A dynamic developer with excellent problem-solving abilities - and lots of soft skills.</Paragraph>
-          <Paragraph>I build full-stack applications using HTML, CSS, Javascript and the MERN-stack, and I create images for my websites using <Link href="https://www.midjourney.com/">Midjourney AI</Link>.</Paragraph>
-          <Paragraph>Since graduating from <Link href="https://www.technigo.io/web-development-boot-camp">Technigo’s Web Development Bootcamp</Link> in June 2023, I have become the recipient of <Link href="https://www.shesharp.co/new-in-tech-scholarship">SheSharp’s New in Tech scholarship</Link>. I have already built a rich portfolio of successful projects, and am currently advancing my skills through <Link href="https://frontendmasters.com/">FrontendMasters</Link>.</Paragraph>
-          <Paragraph>I am passionate about new tech and collaboration. In my spare time, I like to watch Drag Race.</Paragraph>
+          <Paragraph>I love crafting beautiful, responsive and user-friendly websites.</Paragraph>
+          <Paragraph>
+          I&apos;m a quick learner. Writing robust, easy-to-read code is my passion.
+          </Paragraph>
+          <Paragraph>My colleagues describe me as a resilient problem-solver.
+          </Paragraph>
+          <Paragraph>Friends and family describe me as someone they love to be around because of my warm personality.</Paragraph>
         </HeroTextWrapper>
         <IconsWrapper>
           <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">

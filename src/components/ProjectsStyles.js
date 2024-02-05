@@ -36,17 +36,13 @@ export const ProjectsWrapper = styled.section`
   padding-bottom: 93px;
   flex-direction: column;
   align-items: flex-start;
+  background-color: var(--yellow);
   @media screen and (min-width: 668px) {
     padding-top: 120px;
   };
   @media screen and (min-width: 1024px) {
-      padding: 120px 85px;
-  };
-  @media screen and (min-width: 1280px) {
-    padding: 120px 220px 92px;
-};
-@media screen and (min-width: 1512px) {
-  padding: 120px 346px 92px;
+    padding-left: 50px;
+    padding-right: 50px;
   };
 `
 

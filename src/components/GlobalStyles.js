@@ -14,15 +14,25 @@ const GlobalStyle = createGlobalStyle`
     --light-black: ##333333;
     --beige: #FDF2E4;
     --pink-dark: #591812;
-  };
 
-  body {
-    background-color: #fff;
-    color: #000;
+    --white: #F0F0F0;
+    --black: #282828;
+    --ltgrey: #999D9F;
+    --dkgrey: #5B5B5B;
+    --ltblue: #A5D8F3;
+    --dkblue: #0B3F59;
+    --ltpink: #FE9DE6;
+    --purple: #5C0145;
+    --yellow: #E7E500;
+    --dkgreen: #474601;
+
+    --mono: 'Source Code Pro', monospace;
+    --sans: 'Satoshi', sans-serif;
   };
 
   * {
   box-sizing: border-box;
+  text-wrap: balance;
   }
 `;
 

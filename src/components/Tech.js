@@ -4,19 +4,19 @@ import { Fade } from 'react-awesome-reveal';
 
 // components
 
-import { Heading4, Paragraph } from './Typography';
-import { TechWrapper, TechStack, BlueHighlight, PinkHighlight, MediumBlueHighlight } from './TechStyles';
+import { Heading4, PurpleParagraph } from './Typography';
+import { TechWrapper, TechStack, PurpleHighlight, YellowHighlight, BlueHighlight } from './TechStyles';
 
 const Tech = () => {
   return (
     <TechWrapper>
       <Fade
         duration={2000}>
-        <Heading4>Tech</Heading4>
+        <Heading4>Stack</Heading4>
         <TechStack>
-          <Paragraph>
-            HTML5, CSS3, Flexbox, CSS Grid, <BlueHighlight>JavaScript ES6,</BlueHighlight> JSX, <PinkHighlight>React,</PinkHighlight>, React Hooks, Styled components, Redux, Node.js, Mongo DB, Express.js, REST:ful API:s,  pair-programming, <MediumBlueHighlight>mob-programming,</MediumBlueHighlight>Github.
-          </Paragraph>
+          <PurpleParagraph>
+            HTML5, CSS3, Flexbox, Grid, JavaScript ES6, <PurpleHighlight>React.js</PurpleHighlight>, Styled components, Redux, Node.js, MongoDB, Express.js, Figma, <BlueHighlight>REST:ful API:s</BlueHighlight>,  pair-programming, mob-programming, <YellowHighlight>Github</YellowHighlight>.
+          </PurpleParagraph>
         </TechStack>
       </Fade>
     </TechWrapper>

@@ -8,7 +8,7 @@ import { projectList } from './ProjectList';
 
 // components
 
-import { Heading5, Heading6, ProjectDescription } from './Typography';
+import { Heading5, Heading6, GreenParagraph } from './Typography';
 import { ProjectsWrapper, ProjectWrapper, ProjectImageWrapper, ProjectImage, ProjectInnerWrapper, TagsWrapper, Tags, ButtonsWrapper, Button, ButtonIcon, OtherButton } from './ProjectsStyles';
 
 const Projects = forwardRef((props, ref) => {
@@ -17,7 +17,7 @@ const Projects = forwardRef((props, ref) => {
       <Fade
         duration={2000}>
         <Heading5>
-            Featured Projects
+            Projects
         </Heading5>
         {projectList.map(({ title, img, alt, description, tech, demo, hasBackendCode, isNoCode, code }) => {
           const isAnyLinkEmpty = demo === '' || code === '' || code.frontend === '' || (hasBackendCode && code.backend === '');
@@ -28,7 +28,7 @@ const Projects = forwardRef((props, ref) => {
               </ProjectImageWrapper>
               <ProjectInnerWrapper>
                 <Heading6>{title}</Heading6>
-                <ProjectDescription>{description}</ProjectDescription>
+                <GreenParagraph>{description}</GreenParagraph>
                 <TagsWrapper>{tech.map((tag) => <Tags key={tag}>{tag}</Tags>)}</TagsWrapper>
                 {!isNoCode && (
                   <ButtonsWrapper>

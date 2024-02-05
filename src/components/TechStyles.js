@@ -4,7 +4,7 @@ export const TechWrapper = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--pink-light);
+  background-color: var(--ltpink);
   margin-left: -24px;
   margin-right: -24px;
   padding: 80px 0 120px 0;
@@ -14,9 +14,9 @@ export const TechWrapper = styled.div`
   }
   @media screen and (min-width: 1024px) {
     flex-direction: row;
-    justify-content: center;
-    padding-left: 230px;
-    padding-right: 230px;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 `
 
@@ -30,18 +30,19 @@ margin-right: 24px;
     }
       `
 
-export const BlueHighlight = styled.span`
-  background: var(--blue-royal);
-  color: white;
+export const YellowHighlight = styled.span`
+  background: var(--yellow);
+  color: var(--purple);
   padding: 1px;
+  text-wrap: nowrap;
 `
 
-export const PinkHighlight = styled(BlueHighlight)`
-  background: var(--pink);
-  color: white;
+export const PurpleHighlight = styled(YellowHighlight)`
+  background: var(--purple);
+  color: var(--white);
 `
 
-export const MediumBlueHighlight = styled(BlueHighlight)`
-background: var(--blue-medium);
-color: white;
+export const BlueHighlight = styled(YellowHighlight)`
+background: var(--ltblue);
+color: var(--black);
 `
