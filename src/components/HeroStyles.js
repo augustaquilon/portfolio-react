@@ -61,23 +61,6 @@ background-color: var(--black);
 }
 `
 
-// export const LogoWrapper = styled.section`
-// margin-left: -24px;
-// margin-right: -24px;
-// display: none;
-// @media screen and (min-width: 668px) {
-//   display: flex;
-//       height: 572px;
-//       justify-content: center;
-//       overflow: hidden;
-// };
-// @media screen and (min-width: 1024px) {
-//       width: 50%;
-//       height: 980px;
-//       margin: 0;
-// }
-// `
-
 export const IconsWrapper = styled.section`
   display: flex;
   flex-direction: row;
@@ -99,7 +82,7 @@ export const IconButton = styled.a`
   border-radius: 50%;
   cursor: pointer;
   &:hover {
-    transform: scale(1.3);
+    transform: scale(1.5);
     border: none;
     color: var(--dkgrey);
   };
@@ -109,13 +92,6 @@ export const IconButton = styled.a`
     box-shadow: 0 0 0 4px #333333;
   };
 `
-
-// export const LogoImage = styled.img`
-// @media screen and (min-width: 1024px) {
-//   object-fit: cover;
-//   align-self: stretch;
-// }
-// `
 
 export const HeroInnerWrapper = styled.section`
   display: flex;

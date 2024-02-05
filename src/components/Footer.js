@@ -4,15 +4,15 @@ import React from 'react';
 import Headshot from 'images/headshot.jpeg';
 
 // components
-import { Heading6Bigger, Heading1, Heading2, Heading3, ContactDetails } from './Typography';
+import { Heading6Bigger, Heading1, Heading2, Heading3 } from './Typography';
 import { HeadingsAndPicture, HeroHeadings, Picture, PictureWrapper, IconsWrapper, IconButton } from './HeroStyles.js';
-import { ContactWrapper, ContactDetailsWrapper } from './FooterStyles';
+import { ContactWrapper } from './FooterStyles';
 
 const Footer = () => {
   return (
     <ContactWrapper>
       <Heading6Bigger>
-            Time to talk
+            Let&apos;s collab 🚀
       </Heading6Bigger>
       <HeadingsAndPicture>
         <PictureWrapper>
@@ -29,19 +29,11 @@ const Footer = () => {
           </Heading2>
 
           <Heading3>
-                + much, much more
+                with full-stack ambitions
           </Heading3>
 
         </HeroHeadings>
       </HeadingsAndPicture>
-      <ContactDetailsWrapper>
-        <ContactDetails>
-                +46(0)734646167
-        </ContactDetails>
-        <ContactDetails>
-                nino.aquilon@gmail.com
-        </ContactDetails>
-      </ContactDetailsWrapper>
       <IconsWrapper>
         <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">
           <svg

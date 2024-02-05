@@ -3,10 +3,9 @@ import styled from 'styled-components/macro';
 export const Heading1 = styled.h1`
   font-size: 28px;
   font-family: var(--mono);
-  font-weight: 700;
+  font-weight: 900;
   word-wrap: break-word;
-  font-weight: 700;
-  color: var(--blue-royal);
+  color: var(--dkblue);
   `
 
 export const Heading2 = styled.h2`
@@ -20,7 +19,7 @@ export const Heading2 = styled.h2`
 
 export const Heading3 = styled.h3`
   font-size: 24px;
-  font-family: Satoshi;
+  font-family: var(--mono);
   font-weight: 500;
   word-wrap: break-word;
   color: var(--grey-dark);
@@ -57,21 +56,23 @@ export const Heading6 = styled.h6`
 color: var(--dkgreen);
   font-size: 32px;
   font-family: var(--mono);
-  font-weight: 400;
+  font-weight: 900;
   word-wrap: break-word;
   margin: 0;
 `
 
 export const Heading5Bigger = styled(Heading5)`
 font-size: 80px;
+color: var(--dkblue);
 `
 
 export const Heading6Bigger = styled(Heading6)`
-color: var(--pink);
+color: var(--dkblue);
 font-size: 58px;
 align-self: center;
+text-wrap: nowrap;
 @media screen and (min-width: 668px) {
-  font-size: 110px;
+  font-size: 80px;
   padding-bottom: 75px;
 };
 `
@@ -96,8 +97,8 @@ margin-bottom: 10px;
 `
 
 export const PinkHighlight = styled.p`
-color: #fff;
-background-color: var(--pink);
+color: var(--purple);
+background-color: var(--ltpink);
 font-size: 24px;
 font-family: Satoshi;
 font-weight: 700;
@@ -106,21 +107,17 @@ word-wrap: break-word;
   padding: 4px;
 `
 
-export const BlueHighlight = styled(PinkHighlight)`
-background-color: var(--blue-medium);`
+export const YellowHighlight = styled(PinkHighlight)`
+background-color: var(--yellow);
+color: var(--black);`
 
-export const DarkBlueHighlight = styled(BlueHighlight)`
-background-color: var(--blue-royal);`
+export const DarkBlueHighlight = styled(PinkHighlight)`
+background-color: var(--dkblue);
+color: var(--ltblue);`
 
-export const GreyHighlight = styled(DarkBlueHighlight)`
-background-color: var(--grey-dark);`
-
-export const ListItem = styled.li`
-font-size: 22px;
-font-family: EB Garamond;
-font-weight: 400;
-line-height: 32px;
-word-wrap: break-word
+export const GreenHighlight = styled(PinkHighlight)`
+background-color: var(--white);
+color: var(--dkblue)
 `
 
 export const ContactDetails = styled.p`

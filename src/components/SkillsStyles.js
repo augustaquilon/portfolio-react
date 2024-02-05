@@ -6,10 +6,9 @@ export const SkillsWrapper = styled.section`
   margin-right: -24px;
   flex-direction: column;
   align-items: center;
-  background: white;
   padding-top: 64px;
   padding-bottom: 147px;
-  background-color: var(--pink-light);
+  background-color: var(--ltblue);
   @media screen and (min-width: 668px) {
     padding-top: 121px;
     padding-bottom: 155px;
@@ -50,4 +49,12 @@ text-align: center;
 @media screen and (min-width: 668px) {
   text-align: left;
 }
+`
+
+export const ListItem = styled.li`
+font-size: 22px;
+font-family: var(--mono);
+font-weight: 400;
+line-height: 32px;
+word-wrap: break-word
 `

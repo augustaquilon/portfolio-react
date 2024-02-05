@@ -13,11 +13,11 @@ export const ButtonsWrapper = styled.section`
 
 export const Tags = styled.span`
   font-size: 16px;
-  font-family: Satoshi;
+  font-family: var(--sans);
   font-weight: 500;
   word-wrap: break-word;
-  color: #fff;
-  background: black;
+  color: var(--white);
+  background: var(--dkgreen);
   padding: 3px;
 `
 
@@ -86,6 +86,7 @@ export const ButtonIcon = styled.svg`
 `
 
 export const Button = styled.a`
+  font-family: var(--sans);
   text-decoration: none;
   width: 200px;
   display: inline-flex;
@@ -93,8 +94,8 @@ export const Button = styled.a`
   font-weight: 500;
   align-items: center;
   justify-content: center;
-  background-color: var(--pink-light);
-  color: var(--light-black);
+  background-color: var(--ltpink);
+  color: var(--white);
   border-radius: 21px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
   padding: 0.25em 0.75em;
@@ -104,8 +105,8 @@ export const Button = styled.a`
   line-height: 1.1;
   transition: 220ms all ease-in-out;
   &:hover {
-   background-color: var(--pink);
-   color: #fff;
+   background-color: var(--purple);
+   color: var(--white);
   };
   &:focus {
     outline-style: solid;
@@ -116,14 +117,15 @@ export const Button = styled.a`
 
 export const DisabledButton = styled(Button)`
 pointer-events: none;
-background-color: var(--grey-dark);
+background-color: var(--ltgrey);
 color: white;`
 
 export const OtherButton = styled(Button)`
-background-color: var(--blue-light);
+background-color: var(--ltblue);
+color: var(--black);
 &:hover {
-  background-color: var(--blue-royal);
-  color: #fff;
+  background-color: var(--black);
+  color: var(--white);
  };
 `
 
