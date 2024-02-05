@@ -120,9 +120,12 @@ background-color: var(--white);
 color: var(--dkblue)
 `
 
-export const ContactDetails = styled.p`
-color: #000;
+export const Email = styled.p`
+color: var(--dkblue);
 font-size: 24px;
-font-family: Satoshi;
+font-family: var(--mono);
 font-weight: 900;
 word-wrap: break-word`
+
+export const HeroEmail = styled(Email)`
+color: var(--ltblue)`

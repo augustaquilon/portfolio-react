@@ -16,3 +16,12 @@ export const ContactWrapper = styled.footer`
       align-items: center;
   }
 `
+export const ContactDetailsWrapper = styled.div`
+@media screen and (min-width: 668px) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 120px;
+  padding-bottom: 125px;
+};
+`

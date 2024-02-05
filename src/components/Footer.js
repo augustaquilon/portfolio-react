@@ -4,9 +4,9 @@ import React from 'react';
 import Headshot from 'images/headshot.jpeg';
 
 // components
-import { Heading6Bigger, Heading1, Heading2, Heading3 } from './Typography';
+import { Heading6Bigger, Heading1, Heading2, Heading3, Email } from './Typography';
 import { HeadingsAndPicture, HeroHeadings, Picture, PictureWrapper, IconsWrapper, IconButton } from './HeroStyles.js';
-import { ContactWrapper } from './FooterStyles';
+import { ContactWrapper, ContactDetailsWrapper } from './FooterStyles';
 
 const Footer = () => {
   return (
@@ -29,11 +29,16 @@ const Footer = () => {
           </Heading2>
 
           <Heading3>
-                with full-stack ambitions
+                with fullstack ambitions
           </Heading3>
 
         </HeroHeadings>
       </HeadingsAndPicture>
+      <ContactDetailsWrapper>
+        <Email>
+                nino.aquilon@gmail.com
+        </Email>
+      </ContactDetailsWrapper>
       <IconsWrapper>
         <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">
           <svg
@@ -45,6 +50,11 @@ const Footer = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
             <path d="M10.1875 25V10.9844H5.82812V25H10.1875ZM7.98438 9.10938C9.39062 9.10938 10.5156 7.9375 10.5156 6.53125C10.5156 5.17188 9.39062 4.04688 7.98438 4.04688C6.625 4.04688 5.5 5.17188 5.5 6.53125C5.5 7.9375 6.625 9.10938 7.98438 9.10938ZM26.4531 25H26.5V17.3125C26.5 13.5625 25.6562 10.6562 21.25 10.6562C19.1406 10.6562 17.7344 11.8281 17.125 12.9062H17.0781V10.9844H12.9062V25H17.2656V18.0625C17.2656 16.2344 17.5938 14.5 19.8438 14.5C22.0938 14.5 22.1406 16.5625 22.1406 18.2031V25H26.4531Z" fill="currentColor" />
+          </svg>
+        </IconButton>
+        <IconButton aria-label="Icon-only Button" href="mailto: nino.aquilon@gmail.com">
+          <svg xmlns="http://www.w3.org/2000/svg" height="32" width="32" viewBox="0 0 512 512">
+            <path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z" fill="currentColor" />
           </svg>
         </IconButton>
         <IconButton aria-label="Icon-only Button" href="https://github.com/codeandjazz" target="_blank" rel="noreferrer">
