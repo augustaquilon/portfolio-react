@@ -3,7 +3,7 @@ import styled from 'styled-components/macro';
 export const ButtonsWrapper = styled.section`
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 3rem;
   flex-wrap: wrap;
   @media screen and (min-width: 668px) {
       flex-direction: row;
@@ -12,13 +12,14 @@ export const ButtonsWrapper = styled.section`
 `
 
 export const Tags = styled.span`
-  font-size: 16px;
+  font-size: 1.5rem;
   font-family: var(--sans);
-  font-weight: 500;
+  font-weight: 400;
   word-wrap: break-word;
   color: var(--white);
   background: var(--dkgreen);
-  padding: 3px;
+  padding: 4px;
+  border-radius: 3px;
 `
 
 export const TagsWrapper = styled.div`
@@ -32,8 +33,7 @@ export const TagsWrapper = styled.div`
 
 export const ProjectsWrapper = styled.section`
   display: flex;
-  padding-top: 64px;
-  padding-bottom: 93px;
+  padding: 3rem 1rem;
   flex-direction: column;
   align-items: flex-start;
   background-color: var(--yellow);
@@ -68,7 +68,7 @@ export const ProjectInnerWrapper = styled.div`
   width: 100%;
   max-width: 500px;
   height: auto;
-  gap: 10px;
+  gap: 1rem;
     @media screen and (min-width: 668px) {
       max-width: 700%;
     };
@@ -86,24 +86,27 @@ export const ButtonIcon = styled.svg`
 `
 
 export const Button = styled.a`
-  font-family: var(--sans);
-  text-decoration: none;
-  width: 200px;
-  display: inline-flex;
-  font-size: 21px;
-  font-weight: 500;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--ltpink);
-  color: var(--white);
-  border-radius: 21px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.18);
-  padding: 0.25em 0.75em;
-  min-width: 10ch;
-  min-height: 44px;
-  text-align: center;
-  line-height: 1.1;
-  transition: 220ms all ease-in-out;
+font-family: var(--sans);
+text-decoration: none;
+max-width: 300px;
+text-wrap: nowrap;
+display: inline-flex;
+font-size: 2rem;
+font-weight: 500;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+background-color: var(--ltpink);
+color: var(--white);
+border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.18) 0px 3px 5px;
+padding: 1rem;
+min-width: 10ch;
+min-height: 44px;
+text-align: center;
+line-height: 1.1;
+transition: all 220ms ease-in-out 0s;
   &:hover {
    background-color: var(--purple);
    color: var(--white);
@@ -130,12 +133,14 @@ color: var(--black);
 `
 
 export const ProjectImageWrapper = styled.div`
-padding-bottom: 24px;`
+padding-bottom: 1rem;
+`
 
 export const ProjectImage = styled.img`
     width: 100%;
     height: auto;
     max-width: 500px;
+    border-radius: 3px;
     @media screen and (min-width: 668px) {
       max-width: 100%;
       height: 280px;

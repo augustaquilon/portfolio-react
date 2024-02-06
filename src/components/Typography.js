@@ -69,7 +69,6 @@ color: var(--dkblue);
 export const Heading6Bigger = styled(Heading6)`
 color: var(--dkblue);
 font-size: 58px;
-align-self: center;
 text-wrap: nowrap;
 @media screen and (min-width: 668px) {
   font-size: 80px;
@@ -128,7 +127,9 @@ font-weight: 900;
 word-wrap: break-word`
 
 export const HeroEmail = styled(Email)`
-color: var(--ltblue)`
+color: var(--ltblue);
+padding-top: 1rem;
+`
 
 export const Link = styled.a`
 &:link {

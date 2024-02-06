@@ -5,9 +5,8 @@ export const TechWrapper = styled.div`
   flex-direction: column;
   align-items: center;
   background-color: var(--ltpink);
-  margin-left: -24px;
-  margin-right: -24px;
-  padding: 80px 0 120px 0;
+  width: 100%;
+  padding: 3rem 4rem;
   @media screen and (min-width: 668px) {
     padding: 234px 0 287px 0;
     gap: 142px;
@@ -21,8 +20,6 @@ export const TechWrapper = styled.div`
 `
 
 export const TechStack = styled.div`
-margin-left: 24px;
-margin-right: 24px;
 @media screen and (min-width: 668px) {
       width: 100%;
       max-width: 500px;

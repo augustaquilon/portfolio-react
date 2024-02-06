@@ -1,13 +1,13 @@
-header {
-    background-color: var(--black);
-}
-
 #hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-top: 25px;
-  padding-bottom: 55px;
+  padding: 1rem;
+  background-color: var(--black);
+  padding: 1rem;
+  margin: 0 auto;
+  width: 100%;
+  height: 1732px;
 }
 
 #hero .profile {
@@ -18,9 +18,8 @@ header {
 }
 
 #hero .profile .picture {
-    display: flex;
-  justify-content: center;
-  margin: 3em auto 2em auto;
+    margin: 0 auto;
+    padding: 1rem;
 }
 
 #hero .profile .picture img {

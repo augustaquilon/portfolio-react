@@ -15,7 +15,7 @@ const Tech = () => {
         <Heading4>Stack</Heading4>
         <TechStack>
           <PurpleParagraph>
-            HTML5, CSS3, Flexbox, Grid, JavaScript ES6, <PurpleHighlight>React.js</PurpleHighlight>, Styled components, Redux, Node.js, MongoDB, Express.js, Figma, <BlueHighlight>REST:ful API:s</BlueHighlight>,  pair-programming, mob-programming, <YellowHighlight>Github</YellowHighlight>.
+            HTML5, CSS3, Flexbox, Grid, JavaScript ES6, <PurpleHighlight>React.js</PurpleHighlight>, Styled components, Redux, Node.js, MongoDB, Express.js, Figma, <BlueHighlight>REST API Design</BlueHighlight>,  pair-programming, mob-programming, <YellowHighlight>Github</YellowHighlight>.
           </PurpleParagraph>
         </TechStack>
       </Fade>

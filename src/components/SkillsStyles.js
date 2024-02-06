@@ -2,12 +2,9 @@ import styled from 'styled-components/macro';
 
 export const SkillsWrapper = styled.section`
   display: flex;
-  margin-left: -24px;
-  margin-right: -24px;
   flex-direction: column;
   align-items: center;
-  padding-top: 64px;
-  padding-bottom: 147px;
+  padding: 3rem 4rem;
   background-color: var(--ltblue);
   @media screen and (min-width: 668px) {
     padding-top: 121px;

@@ -8,29 +8,28 @@ import Skills from 'components/Skills'
 import Footer from 'components/Footer'
 import GlobalStyle from 'components/GlobalStyles'
 
-const OuterWrapper = styled.div`
+const Wrapper = styled.div`
   width: 100%;
   height: auto;
   margin: 0;
 `
-const InnerWrapper = styled.div`
-margin: 0 24px 0 24px;
-`
 
 const MainLayout = () => {
   return (
-    <OuterWrapper>
+    <Wrapper>
       <GlobalStyle />
-      <InnerWrapper>
+      <header>
         <Hero />
-        <main>
-          <Tech />
-          <Projects />
-          <Skills />
-        </main>
+      </header>
+      <main>
+        <Tech />
+        <Projects />
+        <Skills />
+      </main>
+      <footer>
         <Footer />
-      </InnerWrapper>
-    </OuterWrapper>
+      </footer>
+    </Wrapper>
   )
 };
 

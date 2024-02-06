@@ -30,10 +30,26 @@ const GlobalStyle = createGlobalStyle`
     --sans: 'Satoshi', sans-serif;
   };
 
-  * {
-  box-sizing: border-box;
-  text-wrap: balance;
+  html {
+    box-sizing: border-box;
+  };
+
+  *, *::before, *::after {
+      box-sizing: inherit;
+  };
+
+  body {
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    border: 0;
+    text-wrap: balance;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
+  
+  
 `;
 
 export default GlobalStyle;

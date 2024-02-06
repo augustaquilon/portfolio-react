@@ -7,9 +7,9 @@ import { SkillsWrapper, ListOuterWrapper, ListWrapper, List, ListItem } from './
 
 // arrays
 
-const CodeSkills = ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'JavaScript ES6', 'React.js', 'Styled components', 'Github', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'Server-side programming', 'REST API Design'];
+const CodeSkills = ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'JavaScript ES6', 'React.js', 'Styled components', 'Github', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'Mongoose', 'REST API Design'];
 
-const ToolboxSkills = ['Visual Studio Code', 'Unit Tests', 'Dev Tools', 'Google', 'Midjourney', 'Generative AI', 'ChatGPT', 'Postman', 'Figma', 'Slack', 'Notion'];
+const ToolboxSkills = ['Visual Studio Code', 'Unit Tests', 'Dev Tools', 'Google', 'Midjourney AI', 'ChatGPT', 'Postman', 'Figma', 'Slack', 'Notion'];
 
 const MoreSkills = ['Teamwork', 'Growth mindset', 'Pair-programming', 'Mob-programming', 'Agile methodology', 'Accessibility', 'Time management', 'Design principles', 'Webpage Performance'];
 

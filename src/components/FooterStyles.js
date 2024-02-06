@@ -2,8 +2,7 @@ import styled from 'styled-components/macro';
 
 export const ContactWrapper = styled.footer`
   display: flex;
-  padding-top: 64px;
-  padding-bottom: 93px;
+  padding: 3rem 1rem;
   flex-direction: column;
   background: white;
   @media screen and (min-width: 668px) {

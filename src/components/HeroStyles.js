@@ -62,15 +62,12 @@ background-color: var(--black);
 `
 
 export const IconsWrapper = styled.section`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  padding-top: 58px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+padding: 4rem;
   @media screen and (min-width: 1024px) {
-    display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      width: 500px;
+      max-width: 500px;
       align-self: center;
   }
 `
