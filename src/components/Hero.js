@@ -5,22 +5,19 @@ import React from 'react';
 import Headshot from 'images/headshot.jpeg';
 
 // components
-import { Heading2, Paragraph, HeroEmail } from './Typography';
-import { HeroWrapper, HeroInnerWrapper, HeadingsAndPicture, PictureWrapper, Picture, HeroHeadings, HeroTextWrapper, IconsWrapper, IconButton, Link } from './HeroStyles';
+import { Heading2, Paragraph, HeroEmail, Link } from './Typography';
+import { IconsWrapper, IconButton } from './HeroStyles';
+import './Hero.css';
 
 const Hero = () => {
   return (
-    <HeroWrapper>
-      <HeroInnerWrapper>
-        <HeadingsAndPicture>
-          <PictureWrapper>
-            <Picture src={Headshot} id="headshot" alt="headshot" />
-          </PictureWrapper>
-          <HeroHeadings>
-
-            {/* <Heading1>
-                  Hi, I’m
-            </Heading1> */}
+    <header>
+      <section id="hero">
+        <div className="profile">
+          <div className="picture">
+            <img src={Headshot} id="headshot" alt="headshot" />
+          </div>
+          <div className="text">
 
             <Heading2>
                   Hi, nice to meet you <span role="img" aria-label="wave">👋</span>
@@ -28,9 +25,9 @@ const Hero = () => {
             <Heading2>I’m Nino Aquilon</Heading2>
             <Heading2>A front-end developer, recent <Link href="https://www.shesharp.co/new-in-tech-scholarship">scholarship</Link> recipient and <Link href="https://www.technigo.io/web-development-boot-camp">bootcamp</Link> graduate</Heading2>
 
-          </HeroHeadings>
-        </HeadingsAndPicture>
-        <HeroTextWrapper>
+          </div>
+        </div>
+        <div className="description">
           <Paragraph>I love crafting beautiful, responsive and user-friendly websites.</Paragraph>
           <Paragraph>
           I&apos;m a quick learner. Writing robust, easy-to-read code is my passion.
@@ -38,7 +35,7 @@ const Hero = () => {
           <Paragraph>My colleagues describe me as a resilient problem-solver.
           </Paragraph>
           <Paragraph>Friends and family describe me as someone they love to be around because of my warm personality.</Paragraph>
-        </HeroTextWrapper>
+        </div>
         <HeroEmail>
                 nino.aquilon@gmail.com
         </HeroEmail>
@@ -73,8 +70,8 @@ const Hero = () => {
             </svg>
           </IconButton>
         </IconsWrapper>
-      </HeroInnerWrapper>
-    </HeroWrapper>
+      </section>
+    </header>
   )
 };
 

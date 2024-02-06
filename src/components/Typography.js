@@ -129,3 +129,16 @@ word-wrap: break-word`
 
 export const HeroEmail = styled(Email)`
 color: var(--ltblue)`
+
+export const Link = styled.a`
+&:link {
+  color: var(--ltblue);
+}
+
+&:visited {
+  color: var(--ltblue);
+}
+
+&:active {
+  color: var(--ltblue);
+}`
