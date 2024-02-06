@@ -1,11 +1,5 @@
 header {
     background-color: var(--black);
-    @media screen and (min-width: 1024px) {
-      display: flex;
-      flex-direction: row;
-      margin-left: -24px;
-      margin-right: -24px;
-}
 }
 
 #hero {
@@ -14,42 +8,19 @@ header {
   justify-content: center;
   padding-top: 25px;
   padding-bottom: 55px;
-
-@media screen and (min-width: 668px) {
-    padding-top: 80px;
-    padding-bottom: 80px;
-  };
-@media screen and (min-width: 1024px) {
-  max-width: 1200px;
-  margin: 0;
-  align-items: flex-start;
-  padding-left: 50px;
-  padding-right: 50px;
-}
 }
 
 #hero .profile {
-    display: flex;
+      display: flex;
       flex-direction: column;
       justify-content: center;
       padding-bottom: 20px;
-      @media screen and (min-width: 668px) {
-        flex-direction: row;
-        gap: 29px;
-        padding-bottom: 0;
-      }
-      @media screen and (min-width: 1024px) {
-      justify-content: flex-start;
-      }
 }
 
 #hero .profile .picture {
     display: flex;
   justify-content: center;
   margin: 3em auto 2em auto;
-  @media screen and (min-width: 668px) {
-    margin: 0%;
-  };
 }
 
 #hero .profile .picture img {
@@ -62,20 +33,53 @@ header {
     display: flex;
       flex-direction: column;
       justify-content: center;
-      @media screen and (min-width: 1024px) {
+}
+
+
+@media screen and (min-width: 668px) {
+    #hero {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #hero .profile {
+        flex-direction: row;
+        gap: 29px;
+        padding-bottom: 0;
+    }
+    #hero .profile .picture {
+        margin: 0%;
+    }
+    #hero .description {
+        padding: 32px 102px 0 142px;
+    }
+  };
+
+@media screen and (min-width: 1024px) {
+    header {
+        display: flex;
+        flex-direction: row;
+        margin-left: -24px;
+        margin-right: -24px;
+
+    }
+    #hero {
+        max-width: 1200px;
+        margin: 0;
+        align-items: flex-start;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #hero .profile {
+        justify-content: flex-start;
+    }
+    #hero .profile .text {
         display: flex;
         flex-direction: column;
         justify-content: center;
-      }
-}
-
-#hero .description {
-    @media screen and (min-width: 668px) {
-        padding: 32px 102px 0 142px;
-      }
-      @media screen and (min-width: 1024px) {
-      padding: 0;
-      height: auto;
-      margin: 50px 0;
-      }
+    }
+    #hero .description {
+        padding: 0;
+        height: auto;
+        margin: 50px 0;
+    }
 }
