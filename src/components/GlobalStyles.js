@@ -39,14 +39,20 @@ const GlobalStyle = createGlobalStyle`
   };
 
   body {
-    height: 100vh;
-    width: 100vw;
+    margin: 0;
     padding: 0;
     border: 0;
     text-wrap: balance;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+  }
+
+  *:focus-visible { 
+    outline: 3px solid black;
+    outline-offset: 0.25rem;
+    border-radius: 0.5rem;
   }
   
   

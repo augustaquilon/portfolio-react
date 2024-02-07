@@ -13,7 +13,6 @@ export const Heading2 = styled.h2`
   font-family: var(--mono);
   font-weight: 900;
   word-wrap: break-word;
-  margin-top: 7px;
   color: var(--ltblue);
 `
 
@@ -22,7 +21,7 @@ export const Heading3 = styled.h3`
   font-family: var(--mono);
   font-weight: 500;
   word-wrap: break-word;
-  color: var(--grey-dark);
+  color: var(--dkgrey);
   margin-top: 3px;
   margin-bottom: 1.5em;
   @media screen and (min-width: 668px) {
@@ -72,7 +71,6 @@ font-size: 58px;
 text-wrap: nowrap;
 @media screen and (min-width: 668px) {
   font-size: 80px;
-  padding-bottom: 75px;
 };
 `
 
@@ -81,7 +79,7 @@ export const Paragraph = styled.p`
   font-size: 22px;
   font-weight: 400;
   word-wrap: break-word;
-  line-height: 29px;
+  line-height: 1.5;
   color: var(--ltblue);
 `
 
@@ -93,6 +91,11 @@ export const GreenParagraph = styled(Paragraph)`
 color: var(--dkgreen);
 margin-top: 10px;
 margin-bottom: 10px;
+`
+
+export const SmallParagraph = styled(Paragraph)`
+font-size: 1rem;
+color: var(--dkgrey)
 `
 
 export const PinkHighlight = styled.p`
@@ -143,3 +146,14 @@ export const Link = styled.a`
 &:active {
   color: var(--ltblue);
 }`
+
+export const Tags = styled.span`
+  font-size: 1.5rem;
+  font-family: var(--sans);
+  font-weight: 400;
+  word-wrap: break-word;
+  color: var(--white);
+  background: var(--dkgreen);
+  padding: 4px;
+  border-radius: 3px;
+`

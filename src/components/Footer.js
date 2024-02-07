@@ -4,21 +4,22 @@ import React from 'react';
 import Headshot from 'images/headshot.jpeg';
 
 // components
-import { Heading6Bigger, Heading1, Heading2, Heading3, Email } from './Typography';
-import { HeadingsAndPicture, HeroHeadings, Picture, PictureWrapper, IconsWrapper, IconButton } from './HeroStyles.js';
-import { ContactWrapper, ContactDetailsWrapper } from './FooterStyles';
+import { Heading6Bigger, Heading1, Heading2, Heading3, Email, SmallParagraph } from './Typography';
+import { IconsWrapper, IconButton } from './HeroStyles.js';
+
+import './Footer.css';
 
 const Footer = () => {
   return (
-    <ContactWrapper>
+    <section id="footer">
       <Heading6Bigger>
             Let&apos;s collab 🚀
       </Heading6Bigger>
-      <HeadingsAndPicture>
-        <PictureWrapper>
-          <Picture src={Headshot} alt="headshot" />
-        </PictureWrapper>
-        <HeroHeadings>
+      <div className="profile">
+        <div className="picture">
+          <img src={Headshot} alt="headshot" />
+        </div>
+        <div className="text">
 
           <Heading1>
                 Nino Aquilon
@@ -32,13 +33,11 @@ const Footer = () => {
                 with fullstack ambitions
           </Heading3>
 
-        </HeroHeadings>
-      </HeadingsAndPicture>
-      <ContactDetailsWrapper>
-        <Email>
+        </div>
+      </div>
+      <Email>
                 nino.aquilon@gmail.com
-        </Email>
-      </ContactDetailsWrapper>
+      </Email>
       <IconsWrapper>
         <IconButton aria-label="Icon-only Button" href="https://www.linkedin.com/in/ninoaquilon/" target="_blank" rel="noreferrer">
           <svg
@@ -70,7 +69,8 @@ const Footer = () => {
           </svg>
         </IconButton>
       </IconsWrapper>
-    </ContactWrapper>
+      <SmallParagraph>&copy; Nino Aquilon 2024. All rights reserved.</SmallParagraph>
+    </section>
   )
 };
 

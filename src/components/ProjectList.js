@@ -126,7 +126,7 @@ export const projectList = [
     img: `${SurveyImg}`,
     alt: 'a cute 3D illustration of headphones and a coffee cup',
     description: 'Experience surveys in a whole new way with MelodyMood! This React-powered survey features custom radio buttons and checkboxes, input validation, and full accessibility, all wrapped in adorable illustrations. Share your musical tastes and emotions effortlessly.',
-    tech: ['REACT', 'CSS'],
+    tech: ['REACT', 'CSS', 'WEB ACCESSIBILITY'],
     demo: 'https://music-survey-react.netlify.app/',
     hasBackendCode: false,
     isNoCode: false,
