@@ -168,7 +168,7 @@ export const projectList = [
     title: '💕 Customer Care Bot',
     img: `${CustomerImg}`,
     alt: 'a vector illustration of smiling customers',
-    description: 'A Chatbot built to care for imaginary customers using HTML, CSS, and vanilla JS.',
+    description: 'A Chatbot built for imaginary customers using HTML, CSS, and vanilla JS.',
     tech: ['HTML', 'CSS', 'JS'],
     demo: 'https://bob-the-catbot.netlify.app/',
     hasBackendCode: false,
