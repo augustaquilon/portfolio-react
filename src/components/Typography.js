@@ -148,7 +148,7 @@ export const Link = styled.a`
 }`
 
 export const Tags = styled.span`
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: var(--sans);
   font-weight: 400;
   word-wrap: break-word;

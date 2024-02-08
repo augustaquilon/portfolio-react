@@ -6,11 +6,10 @@ import MovieImg from 'images/tv-releases-img.jpg';
 import LabyrinthImg from 'images/labyrinth-img.jpg';
 import WeatherImg from 'images/weather-app-img.jpg';
 import MusicImg from 'images/music-img.jpg';
-import CatImg from 'images/catbot-img.jpg';
+import CustomerImg from 'images/customer-care.jpg';
 import GameImg from 'images/guesswho-img.jpg';
 import SurveyImg from 'images/survey-img.jpg';
 import QuizImg from 'images/quiz-img.jpg';
-// import ArcadeImg from 'images/arcade-img.jpg';
 import SunriseImg from 'images/sunrise-img.jpg';
 import ProjectAuthImg from 'images/auth-img.jpg';
 import ExpressImg from 'images/express-img.jpg';
@@ -32,7 +31,7 @@ export const projectList = [
     img: `${HappyThoughtsImg}`,
     alt: 'a cute 3D illustration of a computer',
     description: 'Like Twitter, but with a kinder touch: Introducing "Happy Thoughts", a platform designed to inspire and uplift. This heartwarming full-stack project was crafted using React and the MERN-stack. Ready to send a little love?',
-    tech: ['HTML', 'CSS', 'JS', 'REST API', 'REACT', 'EXPRESS', 'MONGO DB', 'NODE'],
+    tech: ['REACT', 'CSS', 'MONGO DB', 'EXPRESS', 'NODE', 'REST API'],
     demo: 'https://ninos-happy-thoughts.netlify.app/',
     hasBackendCode: true,
     isNoCode: false,
@@ -46,7 +45,7 @@ export const projectList = [
     img: `${ProjectAuthImg}`,
     alt: 'a cute 3D illustration of geometric shapes',
     description: 'This project is a full-stack authentication system, built using React and the MERN-stack. It features a secure login system, with password encryption and validation, as well as a user-friendly interface. Ready to log in or register?',
-    tech: ['HTML', 'CSS', 'JS', 'REST API', 'REACT', 'EXPRESS', 'MONGO', 'NODE'],
+    tech: ['REACT', 'CSS', 'MONGO DB', 'EXPRESS', 'NODE', 'REST API'],
     demo: 'https://ninos-project-auth.netlify.app/',
     hasBackendCode: true,
     isNoCode: false,
@@ -59,7 +58,7 @@ export const projectList = [
     title: '🌐 Project Express REST API: Your RESTful REST API',
     img: `${ExpressImg}`,
     alt: 'a cute 3D illustration of a computer',
-    description: 'This project is a RESTful REST API, built using Express.js. It features data from Trans Rights Indicator Project (TRIP), and is deployed on Render. Ready to explore different routes?',
+    description: 'This project is a RESTful REST API, built using Express.js. It features data from the Trans Rights Indicator Project (TRIP). Ready to explore different routes?',
     tech: ['EXPRESS', 'NODE', 'REST API'],
     demo: 'https://project-express-REST API-25hw.onrender.com/',
     hasBackendCode: false,
@@ -71,7 +70,7 @@ export const projectList = [
     img: `${ToDoImg}`,
     alt: 'a cute 3D illustration of a coffee table',
     description: 'With TaskBliss, you can say goodbye to chaos and hello to productivity! This delightful TodoList app, built using React and Redux Toolkit, is designed to keep you well organized and smiling. With charming illustrations, it is a visual treat as well. Ready to declutter your day?',
-    tech: ['JS', 'REDUX', 'REACT'],
+    tech: ['REACT', 'REDUX'],
     demo: 'https://ninos-todos.netlify.app/',
     hasBackendCode: false,
     isNoCode: false,
@@ -93,7 +92,7 @@ export const projectList = [
     img: `${DesignImg}`,
     alt: 'a cute 3D illustration of a tablet device',
     description: 'In this project, five developers (Josefin Robertsson, Oscar Sindemark, Sammy Olsson, Yu Miao and Nino Aquilon) and one talented UX design student (Angelica Grönberg Valdes) worked closely together to transform Angelicas creative Figma designs into pixel-perfect code. No functionality involved – the focus was on visual design and effective designer-developer communication.',
-    tech: ['CSS', 'REACT', 'FIGMA', 'TEAMWORK'],
+    tech: ['REACT', 'CSS', 'FIGMA', 'TEAMWORK'],
     demo: 'https://ninos-design-handoff.netlify.app/',
     hasBackendCode: false,
     isNoCode: false,
@@ -104,7 +103,7 @@ export const projectList = [
     img: `${MovieImg}`,
     alt: 'a cute 3D illustration of a TV',
     description: 'Experience the magic of cinema with MovieMania, a multi-page React web application. Developed in collaboration with the talented Daniel Brobäck, MovieMania is the ultimate destination for staying in the know about the latest movie releases. Enjoy a sleek and intuitive design, as well as real-time data sourced from a public REST API.',
-    tech: ['CSS', 'REST API', 'REACT', 'TEAMWORK'],
+    tech: ['REACT', 'CSS', 'REST API', 'TEAMWORK'],
     demo: 'https://heartfelt-torrone-e608c2.netlify.app/',
     hasBackendCode: false,
     isNoCode: false,
@@ -148,7 +147,7 @@ export const projectList = [
     img: `${MusicImg}`,
     alt: 'a cute 3D illustration of a mobile device',
     description: 'Stay up-to-date with the latest releases, dive into artist profiles, and find fresh songs for your playlists with this sleek React-powered app, crafted in collaboration with Theres Brännberg Lendt.',
-    tech: ['CSS', 'REST API', 'REACT', 'TEAMWORK'],
+    tech: ['REACT', 'CSS', 'REST API', 'TEAMWORK'],
     demo: 'https://t-and-t-music-release-app.netlify.app/',
     hasBackendCode: false,
     isNoCode: false,
@@ -166,10 +165,10 @@ export const projectList = [
     code: 'https://github.com/codeandjazz/project-guess-who'
   },
   {
-    title: '🐱 Bob the Chatbot',
-    img: `${CatImg}`,
-    alt: 'a cute 3D illustration of a cat',
-    description: 'Meet Bob, the whimsical chatbot with a feline twist! Built using HTML, CSS, and vanilla JS, Bob is your playful virtual friend who purrs, meows, and adds a touch of fangs to your online experience.',
+    title: '💕 Customer Care Bot',
+    img: `${CustomerImg}`,
+    alt: 'a vector illustration of smiling customers',
+    description: 'A Chatbot built to care for imaginary customers using HTML, CSS, and vanilla JS.',
     tech: ['HTML', 'CSS', 'JS'],
     demo: 'https://bob-the-catbot.netlify.app/',
     hasBackendCode: false,
