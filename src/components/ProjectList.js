@@ -168,9 +168,9 @@ export const projectList = [
     title: '💕 Customer Care Bot',
     img: `${CustomerImg}`,
     alt: 'a vector illustration of smiling customers',
-    description: 'A Chatbot built for imaginary customers using HTML, CSS, and vanilla JS.',
+    description: 'A Chatbot built to care for your customers every whim, using HTML, CSS, and vanilla JS. Inspiration for the design taken from Dribble.',
     tech: ['HTML', 'CSS', 'JS'],
-    demo: 'https://bob-the-catbot.netlify.app/',
+    demo: 'https://customer-care-bot.onrender.com/',
     hasBackendCode: false,
     isNoCode: false,
     code: 'https://github.com/codeandjazz/project-chatbot'
