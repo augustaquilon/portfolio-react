@@ -45,6 +45,16 @@
 
 /* media queries */
 
+@media screen and (min-width: 1024px) {
+
+  #projects .project {
+      padding-bottom: 10rem;
+  }
+  #projects .project .project-buttons {
+      flex-flow: row nowrap;
+  }
+};
+
 @media screen and (min-width: 668px) {
     #projects {
         padding: 10rem 1rem;
@@ -68,13 +78,3 @@
         align-items: center;
     }
   };
-
-@media screen and (min-width: 1024px) {
-
-    #projects .project {
-        padding-bottom: 10rem;
-    }
-    #projects .project .project-buttons {
-        flex-flow: row nowrap;
-    }
-};
