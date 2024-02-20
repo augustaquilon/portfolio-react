@@ -3,6 +3,9 @@
 import React, { forwardRef } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
+// import stylesheet
+import './Projects.css';
+
 // projects object
 import { projectList } from './ProjectList';
 
@@ -10,7 +13,6 @@ import { projectList } from './ProjectList';
 
 import { Heading5, Heading6, GreenParagraph, Tags } from './Typography';
 import { PinkButton, ButtonIcon, BlueButton } from './ProjectsStyles';
-import './Projects.css';
 
 const Projects = forwardRef((props, ref) => {
   return (
