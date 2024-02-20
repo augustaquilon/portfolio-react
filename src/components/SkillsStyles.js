@@ -43,6 +43,9 @@ display: flex;
 
 export const List = styled.ul`
 text-align: center;
+list-style-type: none;
+margin: 0;
+padding: 0;
 @media screen and (min-width: 668px) {
   text-align: left;
 }

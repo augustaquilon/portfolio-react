@@ -6,6 +6,7 @@ export const Heading1 = styled.h1`
   font-weight: 900;
   word-wrap: break-word;
   color: var(--dkblue);
+  margin: 0;
   `
 
 export const Heading2 = styled.h2`
@@ -14,6 +15,7 @@ export const Heading2 = styled.h2`
   font-weight: 900;
   word-wrap: break-word;
   color: var(--ltblue);
+  margin: 0;
 `
 
 export const Heading3 = styled.h3`
@@ -35,6 +37,7 @@ export const Heading4 = styled.h4`
   font-weight: 900;
   word-wrap: break-word;
   color: var(--purple);
+  margin-top: 0;
   margin-bottom: 60px;
   @media screen and (min-width: 668px) {
     font-size: 5.5rem;
@@ -48,6 +51,7 @@ export const Heading5 = styled.h5`
   line-height: 80px;
   word-break: break-word;
   color: var(--dkgreen);
+  margin-top: 0;
   margin-bottom: 40px;
 `
 
@@ -81,6 +85,7 @@ export const Paragraph = styled.p`
   word-wrap: break-word;
   line-height: 1.5;
   color: var(--ltblue);
+  margin: 0;
 `
 
 export const PurpleParagraph = styled(Paragraph)`
