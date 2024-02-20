@@ -15,7 +15,7 @@ export const PinkButton = styled.a`
 font-family: var(--sans);
 text-decoration: none;
 max-width: 300px;
-text-wrap: nowrap;
+text-wrap: inherit;
 display: inline-flex;
 font-size: 2rem;
 font-weight: 500;

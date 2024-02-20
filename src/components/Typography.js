@@ -42,11 +42,11 @@ export const Heading4 = styled.h4`
 `
 
 export const Heading5 = styled.h5`
-  font-size: 72px;
+  font-size: 60px;
   font-family: var(--mono);
   font-weight: 900;
   line-height: 80px;
-  word-wrap: break-word;
+  word-break: break-word;
   color: var(--dkgreen);
   margin-bottom: 40px;
 `
@@ -56,7 +56,7 @@ color: var(--dkgreen);
   font-size: 32px;
   font-family: var(--mono);
   font-weight: 900;
-  word-wrap: break-word;
+  word-break: break-word;
   margin: 0;
 `
 
@@ -68,7 +68,7 @@ color: var(--dkblue);
 export const Heading6Bigger = styled(Heading6)`
 color: var(--dkblue);
 font-size: 58px;
-text-wrap: nowrap;
+text-wrap: wrap;
 @media screen and (min-width: 668px) {
   font-size: 80px;
 };
