@@ -44,11 +44,6 @@ transition: all 220ms ease-in-out 0s;
   };
 `
 
-export const DisabledButton = styled(PinkButton)`
-pointer-events: none;
-background-color: var(--ltgrey);
-color: white;`
-
 export const BlueButton = styled(PinkButton)`
 background-color: var(--ltblue);
 color: var(--black);
