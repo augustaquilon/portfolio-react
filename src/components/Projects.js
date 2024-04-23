@@ -3,6 +3,10 @@
 import React, { forwardRef } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
+// lazy load image
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+
 // import stylesheet
 import './Projects.css';
 
@@ -27,7 +31,10 @@ const Projects = forwardRef((props, ref) => {
           return (
             <article className="project" key={title}>
               <div className="image">
-                <img src={img} alt={alt} loading="lazy" />
+                <LazyLoadImage
+                  src={img}
+                  alt={alt}
+                  effect="blur" />
               </div>
               <div className="project-text">
                 <Heading6>{title}</Heading6>
