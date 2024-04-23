@@ -48,7 +48,7 @@
 @media screen and (min-width: 1024px) {
 
   #projects .project {
-      padding-bottom: 10rem;
+      padding-bottom: 1rem;
   }
   #projects .project .project-buttons {
       flex-flow: row nowrap;

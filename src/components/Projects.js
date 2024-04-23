@@ -1,6 +1,6 @@
 /* eslint-disable no-nested-ternary */
 /* eslint-disable max-len */
-import React, { forwardRef } from 'react';
+import React, { forwardRef, useState } from 'react';
 import { Fade } from 'react-awesome-reveal';
 
 // lazy load image
@@ -16,9 +16,16 @@ import { projectList } from './ProjectList';
 // components
 
 import { Heading5, Heading6, GreenParagraph, Tags } from './Typography';
-import { PinkButton, ButtonIcon, BlueButton } from './ProjectsStyles';
+import { PinkButton, ButtonIcon, BlueButton, LoadMoreButton } from './ProjectsStyles';
 
 const Projects = forwardRef((props, ref) => {
+  // Initial count of projects to display
+  const [visibleCount, setVisibleCount] = useState(3);
+  // Function to load more projects
+  const loadMore = () => {
+    // Increase the visible count by 3
+    setVisibleCount(visibleCount + 3);
+  };
   return (
     <section id="projects" ref={ref}>
       <Fade
@@ -26,7 +33,7 @@ const Projects = forwardRef((props, ref) => {
         <Heading5>
             Projects
         </Heading5>
-        {projectList.map(({ title, img, alt, description, tech, demo, hasBackendCode, isNoCode, code }) => {
+        {projectList.slice(0, visibleCount).map(({ title, img, alt, description, tech, demo, hasBackendCode, isNoCode, code }) => {
           const isAnyLinkEmpty = demo === '' || code === '' || code.frontend === '' || (hasBackendCode && code.backend === '');
           return (
             <article className="project" key={title}>
@@ -162,6 +169,9 @@ const Projects = forwardRef((props, ref) => {
           )
         })}
       </Fade>
+      {visibleCount < projectList.length && (
+        <LoadMoreButton type="button" onClick={loadMore}>Load More</LoadMoreButton>
+      )}
     </section>
   )
 });

@@ -52,3 +52,12 @@ color: var(--black);
   color: var(--white);
  };
 `
+
+export const LoadMoreButton = styled(PinkButton)`
+background-color: var(--yellow);
+color: var(--dkgreen);
+&:hover {
+  background-color: var(--dkgreen);
+  color: var(--yellow);
+ };
+`
