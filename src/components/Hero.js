@@ -2,7 +2,7 @@
 import React from 'react';
 
 // images
-import Headshot from 'images/headshot.jpeg';
+import Headshot from 'images/headshot_square.jpg';
 
 // components
 import { Heading2, Paragraph, HeroEmail, Link } from './Typography';
