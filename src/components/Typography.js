@@ -65,7 +65,7 @@ color: var(--dkgreen);
 `
 
 export const Heading5Bigger = styled(Heading5)`
-font-size: 80px;
+font-size: 70px;
 color: var(--dkblue);
 `
 
