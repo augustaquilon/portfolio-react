@@ -7,13 +7,13 @@ import { SkillsWrapper, ListOuterWrapper, ListWrapper, List, ListItem } from './
 
 // arrays
 
-const CodeSkills = ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'JavaScript ES6', 'React.js', 'Styled components', 'Github', 'Redux', 'Node.js', 'Express.js', 'MongoDB', 'REST API Design'];
+const CodeSkills = ['HTML5', 'CSS3', 'Flexbox', 'Grid', 'JavaScript ES6', 'TypeScript', 'React.js', 'Styled components', 'Github', 'Redux', 'Next.js', 'Node.js', 'Express.js', 'MongoDB', 'REST API Design'];
 
-const ToolboxSkills = ['Visual Studio Code', 'Google Cloud', 'Dev Tools', 'MongoDB Compass', 'Midjourney AI', 'ChatGPT', 'Postman', 'Figma', 'Slack', 'Notion'];
+const ToolboxSkills = ['Visual Studio Code', 'Google Cloud', 'Netlify', 'Render', 'Vercel', 'Dev Tools', 'MongoDB Compass', 'Midjourney AI', 'ChatGPT', 'Postman', 'Figma', 'Slack', 'Notion'];
 
 const MoreSkills = ['Teamwork', 'Communication', 'Growth mindset', 'Pair-programming', 'Mob-programming', 'Agile methodology', 'Accessibility', 'Unit Tests', 'Time management', 'Design principles', 'Web UX Design'];
 
-const UpcomingSkills = ['Next.js', 'TypeScript', 'Svelte', 'SvelteKit', 'Vue.js', 'Data Visualization with D3.js'];
+const UpcomingSkills = ['Svelte', 'SvelteKit', 'Vue.js', 'D3.js'];
 
 const Skills = () => {
   return (
@@ -43,7 +43,7 @@ const Skills = () => {
             </List>
           </ListWrapper>
           <ListWrapper>
-            <GreenHighlight>Upcoming </GreenHighlight>
+            <GreenHighlight>Want to learn </GreenHighlight>
             <List>
               {UpcomingSkills.map((item) => <ListItem key={item}>{item}</ListItem>)}
             </List>
