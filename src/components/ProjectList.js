@@ -31,7 +31,7 @@ export const projectList = [
     title: '🌟 Happy Thoughts: Spreading Positivity, One Post at a Time',
     img: `${HappyThoughtsImg}`,
     alt: 'a cute 3D illustration of a computer',
-    description: '"Happy Thoughts" is a full-stack application designed to inspire and uplift, built using the MERN-stack (MongoDB, Express.js, React, Node.js.) Imagine Twitter/X, but with a kinder touch! Ready to send a little love?',
+    description: '"Happy Thoughts" is a full-stack application designed to inspire and uplift, built using the MERN-stack (MongoDB, Express.js, React, Node.js.) It features an SVG spinner, cute animations and confetti. Imagine Twitter/X, but with a kinder touch! Ready to send a little love?',
     tech: ['REACT', 'CSS', 'MONGO DB', 'EXPRESS', 'NODE', 'REST API'],
     demo: 'https://ninos-happy-thoughts.netlify.app/',
     hasBackendCode: true,
